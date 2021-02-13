@@ -13,4 +13,4 @@ I am a second-year graduate student in the Computer Sciences Department at the U
 During my first year, I worked in Professor Jignesh Patel's group building Hustle, 
 an efficient data platform based built on top of Apache Arrow.
 
-I received a BPhil in physics and a B.S. in mathematics at the University of Pittsburgh where I worked with Vladimir Savinov to design the first search for [WbJ states](https://arxiv.org/pdf/1105.5829.pdf).
+I received a BPhil in physics and a B.S. in mathematics at the University of Pittsburgh where I worked with Professor Vladimir Savinov to design the first search for [WbJ states](https://arxiv.org/pdf/1105.5829.pdf).
