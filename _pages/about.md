@@ -8,9 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a second-year graduate student in the Computer Sciences Department at the University of Wisconsin-Madison. I am interested in adversarial machine learning and reinforcement learning.
+I am a Computer Sciences PhD candidate at the University of Wisconsin-Madison advised by [Josiah Hanna](https://pages.cs.wisc.edu/~jphanna/). My research interests are in reinforcement learning, and I'm currently focusing on the role of representation learning in data efficient RL. I am also a research intern at Sandia National Laboratories working on applications of RL to power grid management.
 
-During my first year, I worked in Professor Jignesh Patel's group building Hustle, 
-an efficient data platform based built on top of Apache Arrow.
-
-I received a BPhil in physics and a B.S. in mathematics at the University of Pittsburgh where I worked with Professor Vladimir Savinov to design the first search for [WbJ states](https://arxiv.org/pdf/1105.5829.pdf).
+During my first year, I worked with [Jignesh Patel](https://pages.cs.wisc.edu/~jignesh/)'s group building [Hustle](https://github.com/UWHustle/hustle), 
+an efficient data platform based built on top of Apache Arrow. I received a BPhil in physics and a B.S. in mathematics at the University of Pittsburgh where I worked with Professor Vladimir Savinov to design the first search for WbJ states.
