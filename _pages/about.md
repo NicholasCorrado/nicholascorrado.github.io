@@ -12,7 +12,7 @@ redirect_from:
 I am a Computer Sciences PhD candidate at the University of Wisconsin-Madison advised by [Josiah Hanna](https://pages.cs.wisc.edu/~jphanna/). 
 I am broadly interested in researching techniques to improve the data efficiency of reinforcement learning (RL).
 Recently, my research has focused on 
-1. Understanding the role of **data augmentation** in the context of RL and 
+1. Understanding the role of **data augmentation** in the context of RL, and 
 2. Demonstrating how **adaptive, off-policy sampling** can make on-policy learning more data efficient. 
 
 Ultimately, my goal is to make RL a more viable tool for real-world tasks. 
