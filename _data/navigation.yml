@@ -15,8 +15,11 @@
   # - title: "Blog Posts"
   #   url: /year-archive/
     
-  # - title: "CV"
-  #   url: /cv/
+   - title: "CV"
+     url: /files/cv.pdf
+
+#   - title: "Personal"
+#     url: /cv/
     
   # - title: "Guide"
   #   url: /markdown/
