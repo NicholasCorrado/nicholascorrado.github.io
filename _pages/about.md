@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Nicholas Corrado"
+title: "Welcome!"
 excerpt: "About me"
 author_profile: true
 redirect_from: 
@@ -34,9 +34,6 @@ I am always eager to discuss research and/or music. Feel free to send an email i
 
 ## Publications and Manuscripts Under Review
 
-----
-
-
 <ins>Guided Data Augmentation for Offline Reinforcement Learning and Imitation Learning.</ins> \
 **Nicholas E. Corrado** & Josiah P. Hanna. \
 *Under Review.* \
@@ -51,6 +48,7 @@ I am always eager to discuss research and/or music. Feel free to send an email i
     </p>
 </details>
 
+<p></p>
 <ins>On-Policy Policy Gradient Learning Without On-Policy Sampling.</ins> \
 **Nicholas E. Corrado** & Josiah P. Hanna. \
 *Under Review.* \
@@ -64,10 +62,11 @@ I am always eager to discuss research and/or music. Feel free to send an email i
     </p>
 </details>
 
+<p></p>
 <ins>Understanding when Dynamics-Invariant Data Augmentations Benefit Model-free Reinforcement Learning Updates.</ins> \
 **Nicholas E. Corrado** & Josiah P. Hanna. \
 *Under Review.* \
-[[preprint (arxiv coming soon!)]](https://nicholascorrado.github.io/files/understanding_da_2023_10_12.pdf)
+[[preprint (arxiv coming soon!)]](https://nicholascorrado.github.io/files/understanding_da_arxiv_2023_10_12.pdf)
 
 <details>
 <summary>
@@ -78,7 +77,7 @@ I am always eager to discuss research and/or music. Feel free to send an email i
     </p>
 </details>
 
-
+<p></p>
 <ins>Reinforcement learning for automatic generation control using a Kuramoto-like model.</ins> \
 **Nicholas E. Corrado**, Michael Livesay, Tyson Bailey, & Drew Levin. \
 *Under Review.*
@@ -91,6 +90,7 @@ I am always eager to discuss research and/or music. Feel free to send an email i
     </p>
 </details>
 
+<p></p>
 <ins>Deep Reinforcement Learning for Distribution Power System Cyber-Resilience via Distributed Energy Resource Control.</ins> \
 **Nicholas E. Corrado**, Michael Livesay, Tyson Bailey, & Drew Levin. \
 *To appear in IEEE International Conference on Communications, Control, and Computing Technologies for Smart Grids (IEEE SmartGridComm)*, 2023.
@@ -103,6 +103,7 @@ I am always eager to discuss research and/or music. Feel free to send an email i
     </p>
 </details>
 
+<p></p>
 <ins>Simulation-Acquired Latent Action Spaces for Dynamics Generalization.</ins> \
 **Nicholas E. Corrado**, Yuxiao Qu, & Josiah P. Hanna. \
 *Proceedings of The 1st Conference on Lifelong Learning Agents, 2022.* \
