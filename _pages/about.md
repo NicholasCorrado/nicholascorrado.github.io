@@ -38,7 +38,7 @@ I am always eager to discuss research and/or music. Feel free to send an email i
 **Nicholas E. Corrado** & Josiah P. Hanna. \
 *Under Review.* \
 [[preprint (arxiv coming soon!)]](https://nicholascorrado.github.io/files/guda_arxiv_2023_10_13.pdf)
-[[video]](https://youtu.be/HUrpA97XBQQ)
+[[video]](https://youtu.be/CatP5PgOuzo)
 <details>
 <summary>
   Abstract
