@@ -52,7 +52,7 @@ I am always eager to discuss research and/or music. Feel free to send an email i
 <ins>On-Policy Policy Gradient Learning Without On-Policy Sampling.</ins> \
 **Nicholas E. Corrado** & Josiah P. Hanna. \
 *Under Review.* \
-[arxiv coming soon!]
+[[preprint (arxiv coming soon!)]](https://nicholascorrado.github.io/files/props_v1.pdf)
 <details>
 <summary>
   Abstract
