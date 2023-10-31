@@ -37,7 +37,7 @@ I am always eager to discuss research and/or music. Feel free to send an email i
 <ins>Guided Data Augmentation for Offline Reinforcement Learning and Imitation Learning.</ins> \
 **Nicholas E. Corrado** & Josiah P. Hanna. \
 *Under Review.* \
-[[preprint (arxiv coming soon!)]](https://nicholascorrado.github.io/files/guda_arxiv_2023_10_13.pdf)
+[[arxiv]](https://arxiv.org/abs/2310.18247)
 [[video]](https://youtu.be/CatP5PgOuzo)
 <details>
 <summary>
@@ -66,7 +66,7 @@ I am always eager to discuss research and/or music. Feel free to send an email i
 <ins>Understanding when Dynamics-Invariant Data Augmentations Benefit Model-free Reinforcement Learning Updates.</ins> \
 **Nicholas E. Corrado** & Josiah P. Hanna. \
 *Under Review.* \
-[[preprint (arxiv coming soon!)]](https://nicholascorrado.github.io/files/understanding_da_arxiv_2023_10_12.pdf)
+[[arxiv]](https://arxiv.org/abs/2310.17786)
 
 <details>
 <summary>
