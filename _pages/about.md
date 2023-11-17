@@ -48,11 +48,10 @@ I am always eager to discuss research and/or music. Feel free to send an email i
     </p>
 </details>
 
-<p></p>
 <ins>On-Policy Policy Gradient Learning Without On-Policy Sampling.</ins> \
 **Nicholas E. Corrado** & Josiah P. Hanna. \
 *Under Review.* \
-[[preprint (arxiv coming soon!)]](https://nicholascorrado.github.io/files/props_v1.pdf)
+[[arxiv]](https://arxiv.org/abs/2311.08290)
 <details>
 <summary>
   Abstract
@@ -62,7 +61,6 @@ I am always eager to discuss research and/or music. Feel free to send an email i
     </p>
 </details>
 
-<p></p>
 <ins>Understanding when Dynamics-Invariant Data Augmentations Benefit Model-free Reinforcement Learning Updates.</ins> \
 **Nicholas E. Corrado** & Josiah P. Hanna. \
 *Under Review.* \
