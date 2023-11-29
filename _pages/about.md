@@ -3,6 +3,8 @@ permalink: /
 title: "Welcome!"
 excerpt: "About me"
 author_profile: true
+sitemap: true
+classes: wide
 redirect_from: 
   - /about/
   - /about.html
@@ -25,12 +27,7 @@ an efficient data platform based built on top of Apache Arrow.
 I received a BPhil in physics and a B.S. in mathematics at the University of Pittsburgh where I worked with [Vladimir Savinov](https://www.physicsandastronomy.pitt.edu/people/vladimir-savinov). 
 For my thesis, I designed and optimized the first search for new hadronic WbJ states in data collected by the Belle Experiment.
 
-Outside of research, [I am a jazz guitarist](https://www.youtube.com/@nicholascorrado3891/videos) &mdash; in fact, I almost pursued music professionally after high school.
-I am heavily influenced by jazz manouche (commonly called gypsy jazz) but also draw inspiration from Bossa, Dixieland, and Modal jazz styles.
-When I was 13, I had the great fortune of meeting and playing with [Joe Negri](https://pittsburghsymphony.org/pso_home/biographies/guest-artists/joe-negri) (aka ["Handyman Negri" from Mister Rogers' Neighborhood](http://www.neighborhoodarchive.com/mrn/characters/handyman_negri/index.html)). 
-He is a jazz legend in my hometown of Pittsburgh and arguably one of the best jazz guitarists in the US.
-
-I am always eager to discuss research and/or music. Feel free to send an email if you're interested in discussing anything!
+Feel free to drop an email if you're interested in chatting!
 
 ## Publications and Manuscripts Under Review
 
@@ -116,6 +113,12 @@ I am always eager to discuss research and/or music. Feel free to send an email i
     </p>
 </details>
 
+# Personal
+Outside of research, [I am a jazz guitarist](https://www.youtube.com/@nicholascorrado3891/videos) &mdash; in fact, I almost pursued music professionally after high school.
+I am heavily influenced by jazz manouche (commonly called gypsy jazz) but also draw inspiration from Bossa, Dixieland, and Modal jazz styles.
+When I was 13, I had the great fortune of meeting and playing with [Joe Negri](https://pittsburghsymphony.org/pso_home/biographies/guest-artists/joe-negri) (aka ["Handyman Negri" from Mister Rogers' Neighborhood](http://www.neighborhoodarchive.com/mrn/characters/handyman_negri/index.html)). 
+He is a jazz legend in my hometown of Pittsburgh and arguably one of the best jazz guitarists in the US.
+
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-R8SE61FCCV"></script>
 <script>
@@ -125,3 +128,4 @@ I am always eager to discuss research and/or music. Feel free to send an email i
 
   gtag('config', 'G-R8SE61FCCV');
 </script>
+
