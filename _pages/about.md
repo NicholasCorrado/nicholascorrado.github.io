@@ -9,7 +9,6 @@ redirect_from:
   - /about/
   - /about.html
 ---
-[//]: # (Towards this end, I've studied data augmentation, adaptive sampling, and representation learning techniques )
 
 I am a Computer Sciences PhD candidate at the University of Wisconsin-Madison advised by [Josiah Hanna](https://pages.cs.wisc.edu/~jphanna/). 
 I am broadly interested in researching techniques to improve the data efficiency of reinforcement learning (RL).
@@ -112,6 +111,8 @@ Feel free to drop an email if you're interested in chatting!
     Deep reinforcement learning has shown incredible promise at training high-performing agents to solve high-dimensional continuous control tasks in a particular training environment. However, to be useful in real-world settings, long-lived agents must perform well across a range of environmental conditions. Naively applying deep RL to a task where environment conditions may vary from episode to episode can be data inefficient. To address this inefficiency, we introduce a method that discovers structure in an agent’s high-dimensional continuous action space to speed up learning across a range of environmental conditions. Whereas prior work on finding so-called latent action spaces requires expert demonstrations or on-task experience, we instead propose to discover the latent, lower-dimensional action space in a simulated source environment and then transfer the learned action space for training in the target environment. We evaluate our novel method on randomized variants of simulated MuJoCo environments and find that, when there is a lower-dimensional action-space to exploit, our method significantly increases data efficiency. For instance, in the Ant environment, our method reduces the 8-dimensional action-space to a 3-dimensional action-space and doubles the average return achieved after a training budget of 2 million timesteps.
     </p>
 </details>
+
+<p></p>
 
 # Personal
 Outside of research, [I am a jazz guitarist](https://www.youtube.com/@nicholascorrado3891/videos) &mdash; in fact, I almost pursued music professionally after high school.
