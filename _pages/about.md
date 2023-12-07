@@ -118,14 +118,3 @@ Outside of research, [I am a jazz guitarist](https://www.youtube.com/@nicholasco
 I am heavily influenced by jazz manouche (commonly called gypsy jazz) but also draw inspiration from Bossa, Dixieland, and Modal jazz styles.
 When I was 13, I had the great fortune of meeting and playing with [Joe Negri](https://pittsburghsymphony.org/pso_home/biographies/guest-artists/joe-negri) (aka ["Handyman Negri" from Mister Rogers' Neighborhood](http://www.neighborhoodarchive.com/mrn/characters/handyman_negri/index.html)). 
 He is a jazz legend in my hometown of Pittsburgh and arguably one of the best jazz guitarists in the US.
-
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-R8SE61FCCV"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-R8SE61FCCV');
-</script>
-
