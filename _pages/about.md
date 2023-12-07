@@ -71,7 +71,6 @@ Feel free to drop an email if you're interested in chatting!
     </p>
 </details>
 
-<p></p>
 <ins>Reinforcement learning for automatic generation control using a Kuramoto-like model.</ins> \
 **Nicholas E. Corrado**, Michael Livesay, Tyson Bailey, & Drew Levin. \
 *Under Review.*
@@ -84,16 +83,16 @@ Feel free to drop an email if you're interested in chatting!
     </p>
 </details>
 
-<p></p>
 <ins>Deep Reinforcement Learning for Distribution Power System Cyber-Resilience via Distributed Energy Resource Control.</ins> \
 **Nicholas E. Corrado**, Michael Livesay, Tyson Bailey, & Drew Levin. \
-*To appear in IEEE International Conference on Communications, Control, and Computing Technologies for Smart Grids (IEEE SmartGridComm)*, 2023.
+*IEEE International Conference on Communications, Control, and Computing Technologies for Smart Grids (IEEE SmartGridComm)*, 2023. \
+[[paper]](https://ieeexplore.ieee.org/document/10333881)
 <details>
 <summary>
   Abstract
 </summary>
     <p>
-    Awaiting approval from Sandia National Laboratories to share this abstract. Stay tuned!
+    Interoperable, internet-connected distributed energy resource (DER) devices in power systems create a new attack vector for malicious cyber-actors. Modern control systems primarily focus on transmission and sub-transmission operations and rarely incorporate DER or other distribution-connected equipment. While recent advances have expanded grid operator visibility and control functionality to the distribution level, these control systems struggle to scale with thousands of networked devices. Thus, to defend against potential attacks on DER devices, we must develop new real-time control algorithms to ensure grid stability. In this work, we present a new approach to power distribution control based on deep reinforcement learning (RL) algorithms which can learn optimal control policies through experience. We evaluate four RL algorithms in novel voltage stabilization tasks based on the IEEE 13-bus and EPRI Ckt5 power distribution models. We demonstrate that RL can successfully perform voltage regulation and outperform a greedy algorithm. Our results coupled with the established capability of RL to scale in high-dimensional settings opens a path towards real-time cyber defense of power systems with RL agents.
     </p>
 </details>
 
