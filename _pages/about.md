@@ -57,20 +57,6 @@ Feel free to drop an email if you're interested in chatting!
     </p>
 </details>
 
-<ins>Understanding when Dynamics-Invariant Data Augmentations Benefit Model-free Reinforcement Learning Updates.</ins> \
-**Nicholas E. Corrado** & Josiah P. Hanna. \
-*Under Review.* \
-[[arxiv]](https://arxiv.org/abs/2310.17786)
-
-<details>
-<summary>
-  Abstract
-</summary>
-    <p>
-        Recently, data augmentation (DA) has emerged as a method for leveraging domain knowledge to inexpensively generate additional data in reinforcement learning (RL) tasks, often yielding substantial improvements in data efficiency. While prior work has demonstrated the utility of incorporating augmented data directly into model-free RL updates, it is not well-understood when a particular DA strategy will improve data efficiency. In this paper, we seek to identify general aspects of DA responsible for observed learning improvements. Our study focuses on sparse-reward tasks with dynamics-invariant data augmentation functions, serving as an initial step towards a more general understanding of DA and its integration into RL training. Experimentally, we isolate three relevant aspects of DA: state-action coverage, reward density, and the number of augmented transitions generated per update (the augmented replay ratio). From our experiments, we draw two conclusions: (1) increasing state-action coverage often has a much greater impact on data efficiency than increasing reward density, and (2) decreasing the augmented replay ratio substantially improves data efficiency. In fact, certain tasks in our empirical study are solvable only when the replay ratio is sufficiently low.
-    </p>
-</details>
-
 <ins>Reinforcement learning for automatic generation control using a Kuramoto-like model.</ins> \
 **Nicholas E. Corrado**, Michael Livesay, Tyson Bailey, & Drew Levin. \
 *Under Review.*
@@ -80,6 +66,19 @@ Feel free to drop an email if you're interested in chatting!
 </summary>
     <p>
     Awaiting approval from Sandia National Laboratories to share this abstract. Stay tuned!
+    </p>
+</details>
+
+<ins>Understanding when Dynamics-Invariant Data Augmentations Benefit Model-free Reinforcement Learning Updates.</ins> \
+**Nicholas E. Corrado** & Josiah P. Hanna. \
+*To appear at ICLR 2024.* \
+[[arxiv]](https://arxiv.org/abs/2310.17786)
+<details>
+<summary>
+  Abstract
+</summary>
+    <p>
+        Recently, data augmentation (DA) has emerged as a method for leveraging domain knowledge to inexpensively generate additional data in reinforcement learning (RL) tasks, often yielding substantial improvements in data efficiency. While prior work has demonstrated the utility of incorporating augmented data directly into model-free RL updates, it is not well-understood when a particular DA strategy will improve data efficiency. In this paper, we seek to identify general aspects of DA responsible for observed learning improvements. Our study focuses on sparse-reward tasks with dynamics-invariant data augmentation functions, serving as an initial step towards a more general understanding of DA and its integration into RL training. Experimentally, we isolate three relevant aspects of DA: state-action coverage, reward density, and the number of augmented transitions generated per update (the augmented replay ratio). From our experiments, we draw two conclusions: (1) increasing state-action coverage often has a much greater impact on data efficiency than increasing reward density, and (2) decreasing the augmented replay ratio substantially improves data efficiency. In fact, certain tasks in our empirical study are solvable only when the replay ratio is sufficiently low.
     </p>
 </details>
 
