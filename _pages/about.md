@@ -31,7 +31,7 @@ Feel free to drop an email if you're interested in chatting!
 ## Publications and Manuscripts Under Review
 
 <ins>Guided Data Augmentation for Offline Reinforcement Learning and Imitation Learning.</ins> \
-**Nicholas E. Corrado** & Josiah P. Hanna. \
+**Nicholas E. Corrado**, Yuxiao Qu, John U. Balis, Adam Labiosa, & Josiah P. Hanna \
 *Under Review.* \
 [[arxiv]](https://arxiv.org/abs/2310.18247)
 [[video]](https://youtu.be/CatP5PgOuzo)
