@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<head>
+    <title>Nicholas E. Corrado</title>
+    <meta name="author" content="Nicholas E. Corrado">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:title" content="Nicholas E. Corrado">
+	<meta property="og:description" content="PhD student, University of Wisconsin-Madison">
+<!--    <meta property="og:image" content="https://nicholascorrado.github.io/images/me.jpg">-->
+    <meta property="og:image" content="images/me.jpg">
+	<meta property="og:url" content="https://nicholascorrado.github.io/">
+<!--	<meta name="twitter:card" content="summary_large_image">-->
+<!--    <link rel="apple-touch-icon" href="files/ucsd-logo.png">-->
+<!--    <link rel="icon" type="image/png" href="files/ucsd-logo.png">-->
+    <link rel="manifest" href="files/site.webmanifest">
+    <link rel="stylesheet" href="style.css">
+</head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-R8SE61FCCV"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-R8SE61FCCV');
+</script>
+<div class="header noselect">
+    <div class="content row">
+        <div class="header-profile-picture"></div>
+        <div class="header-text">
+            <div class="header-name">
+                <h1>Nicholas E. Corrado</h1>
+            </div>
+            <div class="header-subtitle">
+                PhD student, University of Wisconsin-Madison
+            </div>
+            <div class="header-links">
+                <a class="btn" href="mailto:ncorrado@wisc.edu">Email</a> /
+                <a class="btn" href="https://scholar.google.com/citations?hl=en&user=7aEHl08AAAAJ&view_op=list_works&sortby=pubdate">Google Scholar</a> /
+                <a class="btn" href="https://github.com/nicholascorrado">GitHub</a> /
+<!--                <a class="btn" href="">Twitter</a> /-->
+                <a class="btn" href="https://www.linkedin.com/in/nicholas-corrado-1b823a108">LinkedIn</a> /
+                <a class="btn" href="files/cv.pdf">CV</a>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="content" style="padding-bottom: 64px;">
+    <div>
+        <p>
+            I am a PhD student at the <a href="https://www.wisc.edu">University of Wisconsin-Madison</a> advised by <a href="https://pages.cs.wisc.edu/~jphanna/"> Josiah Hanna </a>.
+            I am broadly interested in researching techniques to improve the data efficiency of reinforcement learning (RL).
+            Recently, my research has focused on
+            <ol>
+              <li>Understanding how to most affectively leverage <b>data augmentation</b> for RL, and</li>
+              <li>Using <b>adaptive, off-policy sampling</b> to improve the data efficiency of <b>on-policy learning</b>.</li>
+            </ol>
+<!--            Ultimately, my goal is to make RL a more viable tool for real-world tasks.-->
+<!--            Towards this end, **I've been using physical robotics tasks for my research in data augmentation**.-->
+        </p>
+        <p>
+            From 2021-2022, I was a research intern at <a href="https://www.sandia.gov">Sandia National Laboratories</a> working on RL for power grid management.
+            From 2022-2023, I transitioned to a consulting role for the same project.
+            During the first year of my PhD, I worked in databases with <a href="https://jigneshpatel.org">Jignesh Patel's</a> group building <a href="https://github.com/UWHustle/hustle">Hustle</a>, an efficient data platform based built on top of Apache Arrow.
+<!--        </p>-->
+<!--        <p>-->
+            I received a BPhil in physics and a B.S. in mathematics at the <a href="https://www.pitt.edu">University of Pittsburgh</a> where I worked with <a href="https://www.physicsandastronomy.pitt.edu/people/vladimir-savinov">Vladimir Savinov</a>.
+            For my thesis, I designed the first search for new hadronic WbJ states in data collected by the Belle Experiment.
+        </p>
+        <p>
+            Feel free to drop an email if you're interested in chatting!
+        </p>
+    </div>
+    <div>
+        <h2 class="noselect">Publications and preprints</h2>
+        <div class="publication row clearfix">
+            <div class="row-media" style="background-image: url(images/guda.gif);"></div>
+            <div class="row-text">
+                <a class="publication-title bold" href="https://arxiv.org/abs/2310.16828">Guided Data Augmentation for Offline Reinforcement Learning and Imitation Learning</a><br/>
+                <span class="bold">Nicholas E. Corrado</span>, Yuxiao Qu, John U. Balis, Adam Labiosa, & Josiah P. Hanna<br/>
+                <span class="italic">Under Review</span>, 2024<br/>
+                <a class="btn" href="https://arxiv.org/abs/2310.18247">[arXiv]</a> <a class="btn" href="bibtex/corrado2024guda.txt">[bibtex]</a>
+                <br> <br/>
+                <details>
+                <summary>Abstract</summary>
+                    <p>
+                        In offline reinforcement learning (RL), an RL agent learns to solve a task using only a fixed dataset of previously collected data. While offline RL has been successful in learning real-world robot control policies, it typically requires large amounts of expert-quality data to learn effective policies that generalize to out-of-distribution states. Unfortunately, such data is often difficult and expensive to acquire in real-world tasks. Several recent works have leveraged data augmentation (DA) to inexpensively generate additional data, but most DA works apply augmentations in a random fashion and ultimately produce highly suboptimal augmented experience. In this work, we propose Guided Data Augmentation (GuDA), a human-guided DA framework that generates expert-quality augmented data. The key insight behind GuDA is that while it may be difficult to demonstrate the sequence of actions required to produce expert data, a user can often easily characterize when an augmented trajectory segment represents progress toward task completion. Thus, a user can restrict the space of possible augmentations to automatically reject suboptimal augmented data. To extract a policy from GuDA, we use off-the-shelf offline reinforcement learning and behavior cloning algorithms. We evaluate GuDA on a physical robot soccer task as well as simulated D4RL navigation tasks, a simulated autonomous driving task, and a simulated soccer task. Empirically, GuDA enables learning given a small initial dataset of potentially suboptimal experience and outperforms a random DA strategy as well as a model-based DA strategy.
+                    </p>
+                </details>
+            </div>
+        </div>
+        <div class="publication row clearfix">
+            <div class="row-media" style="background-image: url(images/props2.png);"></div>
+            <div class="row-text">
+                <a class="publication-title bold" href="https://arxiv.org/abs/2310.16029">On-Policy Policy Gradient Learning Without On-Policy Sampling</a><br/>
+                <span class="bold">Nicholas E. Corrado</span>, Josiah P. Hanna<br/>
+                <span class="italic">Under Review</span>, 2024<br/>
+                <a class="btn" href="https://arxiv.org/abs/2311.08290">[arXiv]</a> <a class="btn" href="bibtex/corrado2024props.txt">[bibtex]</a>
+                <br> <br/>
+                <details>
+                    <summary>Abstract</summary>
+                    <p>
+                        On-policy reinforcement learning (RL) algorithms perform policy updates using i.i.d. trajectories collected by the current policy. However, after observing only a finite number of trajectories, on-policy sampling may produce data that fails to match the expected on-policy data distribution. This sampling error leads to noisy updates and data inefficient on-policy learning. Recent work in the policy evaluation setting has shown that non-i.i.d., off-policy sampling can produce data with lower sampling error than on-policy sampling can produce. Motivated by this observation, we introduce an adaptive, off-policy sampling method to improve the data efficiency of on-policy policy gradient algorithms. Our method, Proximal Robust On-Policy Sampling (PROPS), reduces sampling error by collecting data with a behavior policy that increases the probability of sampling actions that are under-sampled with respect to the current policy. Rather than discarding data from old policies -- as is commonly done in on-policy algorithms -- PROPS uses data collection to adjust the distribution of previously collected data to be approximately on-policy. We empirically evaluate PROPS on both continuous-action MuJoCo benchmark tasks as well as discrete-action tasks and demonstrate that (1) PROPS decreases sampling error throughout training and (2) improves the data efficiency of on-policy policy gradient algorithms. Our work improves the RL community's understanding of a nuance in the on-policy vs off-policy dichotomy: on-policy learning requires on-policy data, not on-policy sampling.
+                    </p>
+                </details>
+            </div>
+        </div>
+        <div class="publication row clearfix">
+            <div class="row-media" style="background-image: url(images/da.png);"></div>
+            <div class="row-text">
+                <a class="publication-title bold" href="https://arxiv.org/abs/2309.14236">Understanding when Dynamics-Invariant Data Augmentations Benefit Model-free Reinforcement Learning Updates</a><br/>
+                <span class="bold">Nicholas E. Corrado</span>, Josiah P. Hanna<br/>
+                <span class="italic">International Conference on Learning Representations (<a href="https://iclr.cc">ICLR</a></span>), 2024<br/>
+                <a class="btn" href="https://arxiv.org/abs/2310.17786">[arXiv]</a> / <a class="btn" href="bibtex/corrado2024understandingDA.txt">[bibtex]</a>
+                <br> <br/>
+                <details>
+                    <summary>Abstract</summary>
+                    <p>
+                        Recently, data augmentation (DA) has emerged as a method for leveraging domain knowledge to inexpensively generate additional data in reinforcement learning (RL) tasks, often yielding substantial improvements in data efficiency. While prior work has demonstrated the utility of incorporating augmented data directly into model-free RL updates, it is not well-understood when a particular DA strategy will improve data efficiency. In this paper, we seek to identify general aspects of DA responsible for observed learning improvements. Our study focuses on sparse-reward tasks with dynamics-invariant data augmentation functions, serving as an initial step towards a more general understanding of DA and its integration into RL training. Experimentally, we isolate three relevant aspects of DA: state-action coverage, reward density, and the number of augmented transitions generated per update (the augmented replay ratio). From our experiments, we draw two conclusions: (1) increasing state-action coverage often has a much greater impact on data efficiency than increasing reward density, and (2) decreasing the augmented replay ratio substantially improves data efficiency. In fact, certain tasks in our empirical study are solvable only when the replay ratio is sufficiently low.
+                    </p>
+                </details>
+            </div>
+        </div>
+        <div class="publication row clearfix">
+            <div class="row-media" style="background-image: url(images/power2.png);"></div>
+            <div class="row-text">
+                <a class="publication-title bold" href="https://arxiv.org/abs/2308.16891">Deep Reinforcement Learning for Distribution Power System Cyber-Resilience via Distributed Energy Resource Control</a><br/>
+                <span class="bold">Nicholas E. Corrado</span>, Michael Livesay, Tyson Bailey, & Drew Levin.<br/>
+                <span class="italic">IEEE International Conference on Communications, Control, and Computing Technologies for Smart Grids, (<a href="https://sgc2023.ieee-smartgridcomm.org">IEEE SmartGridComm</a>)</span>, 2023<br/>
+                <a class="btn" href="https://ieeexplore.ieee.org/document/10333881">[paper]</a> <a class="btn" href="bibtex/corrado2023power">[bibtex]</a>
+                <br> <br/>
+                <details>
+                    <summary>Abstract</summary>
+                    <p>
+                        Interoperable, internet-connected distributed energy resource (DER) devices in power systems create a new attack vector for malicious cyber-actors. Modern control systems primarily focus on transmission and sub-transmission operations and rarely incorporate DER or other distribution-connected equipment. While recent advances have expanded grid operator visibility and control functionality to the distribution level, these control systems struggle to scale with thousands of networked devices. Thus, to defend against potential attacks on DER devices, we must develop new real-time control algorithms to ensure grid stability. In this work, we present a new approach to power distribution control based on deep reinforcement learning (RL) algorithms which can learn optimal control policies through experience. We evaluate four RL algorithms in novel voltage stabilization tasks based on the IEEE 13-bus and EPRI Ckt5 power distribution models. We demonstrate that RL can successfully perform voltage regulation and outperform a greedy algorithm. Our results coupled with the established capability of RL to scale in high-dimensional settings opens a path towards real-time cyber defense of power systems with RL agents.
+                    </p>
+                </details>
+        </div>
+    </div>
+    <div class="publication row clearfix">
+        <div class="row-media" style="background-image: url(images/salas.png);"></div>
+        <div class="row-text">
+            <a class="publication-title bold" href="https://arxiv.org/abs/2308.16891">Simulation-Acquired Latent Action Spaces for Dynamics Generalization</a><br/>
+            <span class="bold">Nicholas E. Corrado</span>, Yuxiao Qu, & Josiah P. Hanna<br/>
+            <span class="italic">Conference on Lifelong Learning Agents (<a href="https://sgc2023.ieee-smartgridcomm.org">CoLLAs</a>)</span>, 2022<br/>
+            <a class="btn" href="https://proceedings.mlr.press/v199/corrado22a/corrado22a.pdf">[paper]</a> <a class="btn" href="bibtex/corrado2023salas">[bibtex]</a>
+            <br> <br/>
+            <details>
+                <summary>
+                  Abstract
+                </summary>
+                <p>
+                    Deep reinforcement learning has shown incredible promise at training high-performing agents to solve high-dimensional continuous control tasks in a particular training environment. However, to be useful in real-world settings, long-lived agents must perform well across a range of environmental conditions. Naively applying deep RL to a task where environment conditions may vary from episode to episode can be data inefficient. To address this inefficiency, we introduce a method that discovers structure in an agent’s high-dimensional continuous action space to speed up learning across a range of environmental conditions. Whereas prior work on finding so-called latent action spaces requires expert demonstrations or on-task experience, we instead propose to discover the latent, lower-dimensional action space in a simulated source environment and then transfer the learned action space for training in the target environment. We evaluate our novel method on randomized variants of simulated MuJoCo environments and find that, when there is a lower-dimensional action-space to exploit, our method significantly increases data efficiency. For instance, in the Ant environment, our method reduces the 8-dimensional action-space to a 3-dimensional action-space and doubles the average return achieved after a training budget of 2 million timesteps.
+                </p>
+            </details>
+        </div>
+    </div>
+    <div>
+        <h2 class="noselect">Personal</h2>
+        Outside of research, <a href="https://www.youtube.com/@nicholascorrado3891/videos">I am a jazz guitarist</a> &mdash; in fact, I almost pursued music professionally after high school.
+        I am heavily influenced by jazz manouche (commonly called gypsy jazz) but also draw inspiration from bossa, Dixieland, and modal jazz styles.
+        When I was 13, I had the great fortune of meeting and playing with <a href="https://pittsburghsymphony.org/pso_home/biographies/guest-artists/joe-negri">Joe Negri</a> (aka <a href="http://www.neighborhoodarchive.com/mrn/characters/handyman_negri/index.html">"Handyman Negri" from Mister Rogers' Neighborhood</a>).
+        He is a jazz legend in my hometown of Pittsburgh and arguably one of the best jazz guitarists in the US.
+    </div>
+</div>
+</div>

@@ -1,0 +1,7 @@
+@inproceedings{corrado_guda_2024,
+	title = {Guided Data Augmentation for Offline Reinforcement Learning and Imitation Learning},
+	booktitle = {Arxiv Pre-print},
+	author = {Corrado, Nicholas E. and Qu, Yuxiao and Balis, John U. and Labiosa, Adam and Hanna, Josiah P.},
+	year = {2024},
+	url={https://arxiv.org/abs/2310.18247}
+}
