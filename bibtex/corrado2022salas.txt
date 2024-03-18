@@ -1,0 +1,7 @@
+@inproceedings{corrado_salas_2022,
+  title={Simulation-Acquired Latent Action Spaces for Dynamics Generalization},
+  author={Nicholas Corrado and Yuxiao Qu and Josiah P. Hanna},
+  year={2022},
+  booktitle={Proceedings of the 1st Conference on Lifelong Learning Agents (CoLLAs)},
+  month={August},
+}
