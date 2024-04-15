@@ -2,7 +2,7 @@
   title = {Understanding when Dynamics-Invariant Data Augmentations Benefit Model-Free Reinforcement Learning Updates},
   url = {https://arxiv.org/abs/2310.17786},,
   booktitle = {Proceedings of the International Conference on Learning Representations ({ICLR})},
-  author = {Corrado, Nicholas and Hanna, Josiah P.},
+  author = {Nicholas E. Corrado and Josiah P. Hanna},
   month = May,
   year = {2024},
 }

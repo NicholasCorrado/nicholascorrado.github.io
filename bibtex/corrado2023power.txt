@@ -1,6 +1,6 @@
 @inproceedings{corrado_power_2023,
   title={Deep Reinforcement Learning for Distribution Power System Cyber-Resilience via Distributed Energy Resource Control},
-  author={Corrado, Nicholas E and Livesay, Michael and Bailey, Tyson and Johnson, Jay and Levin, Drew},
+  author={Corrado, Nicholas E. and Livesay, Michael and Bailey, Tyson and Johnson, Jay and Levin, Drew},
   booktitle={2023 IEEE International Conference on Communications, Control, and Computing Technologies for Smart Grids (SmartGridComm)},
   pages={1--6},
   year={2023},

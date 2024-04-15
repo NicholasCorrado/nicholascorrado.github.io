@@ -43,9 +43,31 @@ p {line-height: 1.5em;}
     a.btn {font-size: 14px; padding: 2px 6px;}
 }
 
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+}
+
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+  float: left;
+  width: 48%;
+  padding: 5px;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
 @media only screen and (max-width: 1000px) {
     .publication {margin-bottom: 46px;}
     .publication .row-media {width: 260px; height: 260px; margin: auto; margin-bottom: 12px; display: block;}
     .publication .row-text {display: block; width: 100%; margin-left: 0;}
     .press {display: block;}
 }
+
