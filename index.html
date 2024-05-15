@@ -79,22 +79,6 @@
     <div>
         <h2 class="noselect">Publications and Preprints</h2>
         <div class="publication row clearfix">
-            <div class="row-media" style="background-image: url(images/guda.gif);"></div>
-            <div class="row-text">
-                <a class="publication-title bold" href="https://arxiv.org/abs/2310.16828">Guided Data Augmentation for Offline Reinforcement Learning and Imitation Learning</a><br/>
-                <span class="bold">Nicholas E. Corrado</span>, Yuxiao Qu, John U. Balis, Adam Labiosa, & Josiah P. Hanna<br/>
-                <span class="italic">Under Review</span>, 2024<br/>
-                <a class="btn" href="https://arxiv.org/abs/2310.18247">[arXiv]</a> <a class="btn" href="bibtex/corrado2024guda.txt">[bibtex]</a>
-                <br> <br/>
-                <details>
-                <summary>Abstract</summary>
-                    <p>
-                        In offline reinforcement learning (RL), an RL agent learns to solve a task using only a fixed dataset of previously collected data. While offline RL has been successful in learning real-world robot control policies, it typically requires large amounts of expert-quality data to learn effective policies that generalize to out-of-distribution states. Unfortunately, such data is often difficult and expensive to acquire in real-world tasks. Several recent works have leveraged data augmentation (DA) to inexpensively generate additional data, but most DA works apply augmentations in a random fashion and ultimately produce highly suboptimal augmented experience. In this work, we propose Guided Data Augmentation (GuDA), a human-guided DA framework that generates expert-quality augmented data. The key insight behind GuDA is that while it may be difficult to demonstrate the sequence of actions required to produce expert data, a user can often easily characterize when an augmented trajectory segment represents progress toward task completion. Thus, a user can restrict the space of possible augmentations to automatically reject suboptimal augmented data. To extract a policy from GuDA, we use off-the-shelf offline reinforcement learning and behavior cloning algorithms. We evaluate GuDA on a physical robot soccer task as well as simulated D4RL navigation tasks, a simulated autonomous driving task, and a simulated soccer task. Empirically, GuDA enables learning given a small initial dataset of potentially suboptimal experience and outperforms a random DA strategy as well as a model-based DA strategy.
-                    </p>
-                </details>
-            </div>
-        </div>
-        <div class="publication row clearfix">
             <div class="row-media" style="background-image: url(images/props.gif);"></div>
             <div class="row-text">
                 <a class="publication-title bold" href="https://arxiv.org/abs/2311.08290">On-Policy Policy Gradient Learning Without On-Policy Sampling</a><br/>
@@ -106,6 +90,22 @@
                     <summary>Abstract</summary>
                     <p>
                         On-policy reinforcement learning (RL) algorithms perform policy updates using i.i.d. trajectories collected by the current policy. However, after observing only a finite number of trajectories, on-policy sampling may produce data that fails to match the expected on-policy data distribution. This sampling error leads to noisy updates and data inefficient on-policy learning. Recent work in the policy evaluation setting has shown that non-i.i.d., off-policy sampling can produce data with lower sampling error than on-policy sampling can produce. Motivated by this observation, we introduce an adaptive, off-policy sampling method to improve the data efficiency of on-policy policy gradient algorithms. Our method, Proximal Robust On-Policy Sampling (PROPS), reduces sampling error by collecting data with a behavior policy that increases the probability of sampling actions that are under-sampled with respect to the current policy. Rather than discarding data from old policies -- as is commonly done in on-policy algorithms -- PROPS uses data collection to adjust the distribution of previously collected data to be approximately on-policy. We empirically evaluate PROPS on both continuous-action MuJoCo benchmark tasks as well as discrete-action tasks and demonstrate that (1) PROPS decreases sampling error throughout training and (2) improves the data efficiency of on-policy policy gradient algorithms. Our work improves the RL community's understanding of a nuance in the on-policy vs off-policy dichotomy: on-policy learning requires on-policy data, not on-policy sampling.
+                    </p>
+                </details>
+            </div>
+        </div>
+                <div class="publication row clearfix">
+            <div class="row-media" style="background-image: url(images/guda.gif);"></div>
+            <div class="row-text">
+                <a class="publication-title bold" href="https://arxiv.org/abs/2310.16828">Guided Data Augmentation for Offline Reinforcement Learning and Imitation Learning</a><br/>
+                <span class="bold">Nicholas E. Corrado</span>, Yuxiao Qu, John U. Balis, Adam Labiosa, & Josiah P. Hanna<br/>
+                <span class="italic">Reinforcement Learning Conference (RLC)</span>, 2024<br/>
+                <a class="btn" href="https://arxiv.org/abs/2310.18247">[arXiv]</a> <a class="btn" href="bibtex/corrado2024guda.txt">[bibtex]</a>
+                <br> <br/>
+                <details>
+                <summary>Abstract</summary>
+                    <p>
+                        In offline reinforcement learning (RL), an RL agent learns to solve a task using only a fixed dataset of previously collected data. While offline RL has been successful in learning real-world robot control policies, it typically requires large amounts of expert-quality data to learn effective policies that generalize to out-of-distribution states. Unfortunately, such data is often difficult and expensive to acquire in real-world tasks. Several recent works have leveraged data augmentation (DA) to inexpensively generate additional data, but most DA works apply augmentations in a random fashion and ultimately produce highly suboptimal augmented experience. In this work, we propose Guided Data Augmentation (GuDA), a human-guided DA framework that generates expert-quality augmented data. The key insight behind GuDA is that while it may be difficult to demonstrate the sequence of actions required to produce expert data, a user can often easily characterize when an augmented trajectory segment represents progress toward task completion. Thus, a user can restrict the space of possible augmentations to automatically reject suboptimal augmented data. To extract a policy from GuDA, we use off-the-shelf offline reinforcement learning and behavior cloning algorithms. We evaluate GuDA on a physical robot soccer task as well as simulated D4RL navigation tasks, a simulated autonomous driving task, and a simulated soccer task. Empirically, GuDA enables learning given a small initial dataset of potentially suboptimal experience and outperforms a random DA strategy as well as a model-based DA strategy.
                     </p>
                 </details>
             </div>
