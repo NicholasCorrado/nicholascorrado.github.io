@@ -10,7 +10,7 @@ h1, h2, h3, h4, h5, a, p, span, body, div {font-weight: normal; font-family: 'La
 .header-name h1 {margin: 0; margin-left: 20px; font-size: 2.8em;}
 .header-subtitle {margin-top: 12px; margin-left: 20px; margin-bottom: 12px; font-size: 1.2em; }
 .header-links {font-size: 1.2em; margin-left: 20px;}
-.header-profile-picture {margin-bottom: -8px; width: 250px; height: 198px; border-radius: 20%; background-image: url(images/me_iclr_cropped_2.heic); background-position: center; background-size: contain;}
+.header-profile-picture {margin-bottom: -8px; width: 250px; height: 198px; border-radius: 20%; background-image: url(images/me_iclr_cropped_2.png); background-position: center; background-size: contain;}
 .content {max-width: 748px; padding-left: 16px; padding-right: 16px; margin: auto; margin-top: 48px;}
 .hr {width: 100%; height: 1px; margin: 48px 0; background-color: #d6dbdf;}
 a {color: #e3256b; text-decoration: none;}
