@@ -67,9 +67,9 @@
 <!--                  </span>-->
 <!--                  <span>Paper</span>-->
 <!--                </a>-->
-<!--              </span>-->
+<!--               </span>-->
               <span class="link-block">
-                <a href=""
+                <a href="https://arxiv.org/abs/2310.18247"
                    class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
                       <i class="ai ai-arxiv"></i>
@@ -79,7 +79,7 @@
               </span>
               <!-- Video Link. -->
               <span class="link-block">
-                <a href=""
+                <a href="https://youtu.be/CatP5PgOuzo"
                    class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
                       <i class="fab fa-youtube"></i>
@@ -98,10 +98,33 @@
                   </a>
               </span>
             </div>
-
           </div>
         </div>
       </div>
+    </div>
+  </div>
+</section>
+
+<section class="hero teaser">
+  <div class="container is-max-desktop">
+    <div class="hero-body">
+<!--      <video id="teaser" autoplay muted loop playsinline height="100%">-->
+<!--        <source src="videos/robot_demo.mp4"-->
+<!--                type="video/mp4">-->
+<!--      </video>-->
+<!--      <img src="./images/overview_random_da.png"-->
+<!--               class="interpolation-image"-->
+<!--               alt="Random DA overview."/>-->
+<!--          <p> Random  </p>-->
+      <img src="./images/overview_guda_no_outline.png"
+               class="interpolation-image" width="1924"
+               alt="GuDA overview."/>
+      <h2 class="subtitle has-text-centered">
+<!--        <span class="dnerf">GuDA</span> -->
+        GuDA is a human-guided data augmentation framework
+        that inexpensively produces expert-quality augmented data
+        from a limited set of suboptimal demonstration data.
+      </h2>
     </div>
   </div>
 </section>
@@ -111,16 +134,251 @@
     <!-- Abstract. -->
     <div class="columns is-centered has-text-centered">
       <div class="column is-four-fifths">
+
+<!--        <div class="column is-3 has-text-centered">-->
+<!--          <img src="./images/overview_random_da.png"-->
+<!--               class="interpolation-image"-->
+<!--               alt="Random DA overview."/>-->
+<!--          <p>Learning from </p>-->
+<!--        </div>-->
+<!--        <div class="column is-3 has-text-centered">-->
+<!--          <img src="./images/overview_guda.png"-->
+<!--               class="interpolation-image" width="1924"-->
+<!--               alt="GuDA overview."/>-->
+<!--          <p>Start Frame</p>-->
+<!--        </div>-->
+
         <h2 class="title is-3">Abstract</h2>
         <div class="content has-text-justified">
           <p>
-In offline reinforcement learning (RL), an RL agent learns to solve a task using only a fixed dataset of previously collected data. While offline RL has been successful in learning real-world robot control policies, it typically requires large amounts of expert-quality data to learn effective policies that generalize to out-of-distribution states. Unfortunately, such data is often difficult and expensive to acquire in real-world tasks. Several recent works have leveraged data augmentation (DA) to inexpensively generate additional data, but most DA works apply augmentations in a random fashion and ultimately produce highly suboptimal augmented experience. In this work, we propose Guided Data Augmentation (GuDA), a human-guided DA framework that generates expert-quality augmented data. The key insight behind GuDA is that while it may be difficult to demonstrate the sequence of actions required to produce expert data, a user can often easily characterize when an augmented trajectory segment represents progress toward task completion. Thus, a user can restrict the space of possible augmentations to automatically reject suboptimal augmented data. To extract a policy from GuDA, we use off-the-shelf offline reinforcement learning and behavior cloning algorithms. We evaluate GuDA on a physical robot soccer task as well as simulated D4RL navigation tasks, a simulated autonomous driving task, and a simulated soccer task. Empirically, GuDA enables learning given a small initial dataset of potentially suboptimal experience and outperforms a random DA strategy as well as a model-based DA strategy.          </p>
+            In offline reinforcement learning (RL), an RL agent learns to solve a task using only
+            a fixed dataset of previously collected data. While offline RL has been successful in
+            learning real-world robot control policies, it typically requires large amounts of
+            expert-quality data to learn effective policies that generalize to out-of-distribution
+            states. Unfortunately, such data is often difficult and expensive to acquire in
+            real-world tasks. Several recent works have leveraged data augmentation (DA) to inexpensively
+            generate additional data, but most DA works apply augmentations in a random fashion
+            and ultimately produce highly suboptimal augmented experience.
+          </p>
+          <p>
+            In this work, we propose <b>Gu</b>ided <b>D</b>ata <b>A</b>ugmentation (<b>GuDA</b>),
+            a human-guided DA framework that generates expert-quality augmented data. The key insight
+            behind GuDA is that while it may be difficult to demonstrate the sequence of actions required
+            to produce expert data, a user can often easily characterize when an augmented trajectory segment
+            represents progress toward task completion. Thus, a user can restrict the space of possible
+            augmentations to automatically reject suboptimal augmented data. To extract a policy from GuDA,
+            we use off-the-shelf offline reinforcement learning and behavior cloning algorithms.
+          </p>
+          <p>
+            We evaluate GuDA on a physical robot soccer task as well as simulated D4RL navigation tasks,
+            a simulated autonomous driving task, and a simulated soccer task. Empirically, GuDA enables learning
+            given a small initial dataset of potentially suboptimal experience and outperforms a random DA strategy
+            as well as a model-based DA strategy.
+          </p>
         </div>
       </div>
     </div>
     <!--/ Abstract. -->
+  </div>
+</section>
 
 
+<!--<section class="section">-->
+<!--  <div class="container is-max-desktop">-->
+
+<!--    <div class="columns is-centered">-->
+<!---->
+<!--      &lt;!&ndash; Random DA. &ndash;&gt;-->
+<!--      <div class="column">-->
+<!--        <div class="content">-->
+<!--          <h2 class="title is-3">Visual Effects</h2>-->
+<!--          <p>-->
+<!--            Using <i>nerfies</i> you can create fun visual effects. This Dolly zoom effect-->
+<!--            would be impossible without nerfies since it would require going through a wall.-->
+<!--          </p>-->
+<!--          <video id="dollyzoom" autoplay controls muted loop playsinline height="100%">-->
+<!--            <source src="./static/videos/dollyzoom-stacked.mp4"-->
+<!--                    type="video/mp4">-->
+<!--          </video>-->
+<!--        </div>-->
+<!--      </div>-->
+<!--      &lt;!&ndash;/ Random DA &ndash;&gt;-->
+
+<!--      &lt;!&ndash; GuDA &ndash;&gt;-->
+<!--      <div class="column">-->
+<!--        <h2 class="title is-3">Matting</h2>-->
+<!--        <div class="columns is-centered">-->
+<!--          <div class="column content">-->
+<!--            <p>-->
+<!--              As a byproduct of our method, we can also solve the matting problem by ignoring-->
+<!--              samples that fall outside of a bounding box during rendering.-->
+<!--            </p>-->
+<!--            <video id="matting-video" controls playsinline height="100%">-->
+<!--              <source src="./static/videos/.mp4"-->
+<!--                      type="video/mp4">-->
+<!--            </video>-->
+<!--          </div>-->
+<!--        </div>-->
+<!--      </div>-->
+<!--    </div>-->
+<!--    &lt;!&ndash;/ GuDA. &ndash;&gt;-->
+
+
+<!--      -->
+<!--    <div class="columns is-centered">-->
+
+<!--      &lt;!&ndash; Pointmaze &ndash;&gt;-->
+<!--      <div class="column">-->
+<!--        <div class="content">-->
+<!--          <h2 class="title is-3">maze2d</h2>-->
+<!--          <p>-->
+<!--            Translate the agent to a random position and randomly rotates the agent's direction of motion.-->
+<!--          </p>-->
+<!--          <pre><code>-->
+
+<!--  observations, actions, rewards, next_observations, terminals, truncateds = tau-->
+
+<!--  init_xy  = observations[0, 0:2]-->
+<!--  final_xy = next_observations[-1, 0:2]-->
+<!--  delta_xy = final_xy - init_xy-->
+
+<!--  # random maze position with the-->
+<!--  # coordinates of the cell containing it.-->
+<!--  new_xy, cell_rowcol = sample_maze_pos()-->
+
+<!--  # fetch a near-optimal displacement direction for position new_xy-->
+<!--  theta = np.arctan2(delta_xy[1], delta_xy[0])-->
+<!--  desired_theta = desired_theta_dict[cell_rowcol]-->
+<!--  theta_noise = np.random.uniform(-np.pi/4, np.pi/4)-->
+
+<!--  tau = translate(tau, new_xy - init_xy)-->
+<!--  tau = rotate(tau, (desired_theta + theta_noise) - theta)-->
+<!--  tau = relabel_rewards(tau)-->
+
+<!--  return tau-->
+
+<!--          </code></pre>-->
+<!--&lt;!&ndash;          <video id="dollyzoom" autoplay controls muted loop playsinline height="100%">&ndash;&gt;-->
+<!--&lt;!&ndash;            <source src="./static/videos/dollyzoom-stacked.mp4"&ndash;&gt;-->
+<!--&lt;!&ndash;                    type="video/mp4">&ndash;&gt;-->
+<!--          </video>-->
+<!--        </div>-->
+<!--      </div>-->
+<!--      &lt;!&ndash;/ Pointmaze &ndash;&gt;-->
+
+<!--      &lt;!&ndash; Parking &ndash;&gt;-->
+<!--      <div class="column">-->
+<!--        <h2 class="title is-3">parking</h2>-->
+<!--        <div class="columns is-centered">-->
+<!--          <div class="column content">-->
+<!--            <p>-->
+<!--              Translate the agent to a random position and randomly rotates the agent's direction of motion.-->
+<!--            </p>-->
+<!--            <pre><code>-->
+
+<!--  observations, actions, rewards, next_observations, terminals, truncateds = tau-->
+
+<!--  goal_xy  = observations[0, ...]-->
+<!--  final_xy = next_observations[-1, 0:2]-->
+
+<!--  # fetch a near-optimal displacement direction for position new_xy.-->
+<!--  theta = np.arctan2(next_observations[-1, ...], next_observations[-1, ...])-->
+<!--  desired_theta = observations[0, ...]-->
+<!--  theta_noise = np.random.uniform(-np.pi/6, np.pi/6)-->
+
+<!--  tau = translate(tau, goal_xy - final_xy)-->
+<!--  tau = rotate(tau, (desired_theta + theta_noise) - theta)-->
+<!--  tau = relabel_rewards(tau)-->
+
+<!--  return tau-->
+
+<!--          </code></pre>-->
+<!--&lt;!&ndash;            <video id="matting-video" controls playsinline height="100%">&ndash;&gt;-->
+<!--&lt;!&ndash;              <source src="./static/videos/.mp4"&ndash;&gt;-->
+<!--&lt;!&ndash;                      type="video/mp4">&ndash;&gt;-->
+<!--&lt;!&ndash;            </video>&ndash;&gt;-->
+<!--          </div>-->
+<!--        </div>-->
+<!--      </div>-->
+<!--    </div>-->
+<!--    &lt;!&ndash;/ Parking &ndash;&gt;-->
+
+
+<!--    <div class="columns is-centered">-->
+
+<!--      &lt;!&ndash; Soccer &ndash;&gt;-->
+<!--      <div class="column">-->
+<!--        <div class="content">-->
+<!--          <h2 class="title is-3">soccer-sim</h2>-->
+<!--          <p>-->
+<!--              Translate the agent to a random position and randomly rotates the agent's direction of motion.-->
+<!--            </p>-->
+<!--            <pre><code>-->
+
+<!--  observations, actions, rewards, next_observations, terminals, truncateds = tau-->
+
+<!--  final_ball_xy = next_observations[-1, 2:4]-->
+
+<!--  goal_xy = sample_position_in_goal()-->
+<!--  theta = np.random.uniform(0, 2*np.pi)-->
+<!--  reflect_probability = 0.5-->
+
+<!--  tau = translate(tau, goal_xy - final_ball_xy)-->
+<!--  tau = rotate(tau, theta)-->
+<!--  tau = reflect(tau, reflect_probability)-->
+<!--  tau = relabel_rewards(tau)-->
+
+<!--  return tau-->
+
+<!--          </code></pre>-->
+<!--&lt;!&ndash;          <video id="dollyzoom" autoplay controls muted loop playsinline height="100%">&ndash;&gt;-->
+<!--&lt;!&ndash;            <source src="./static/videos/dollyzoom-stacked.mp4"&ndash;&gt;-->
+<!--&lt;!&ndash;                    type="video/mp4">&ndash;&gt;-->
+<!--&lt;!&ndash;          </video>&ndash;&gt;-->
+<!--        </div>-->
+<!--      </div>-->
+<!--      &lt;!&ndash;/ Soccer &ndash;&gt;-->
+
+<!--      &lt;!&ndash; Antmaze &ndash;&gt;-->
+<!--      <div class="column">-->
+<!--        <h2 class="title is-3">antmaze</h2>-->
+<!--        <div class="columns is-centered">-->
+<!--          <div class="column content">-->
+<!--            <p>-->
+<!--              As a byproduct of our method, we can also solve the matting problem by ignoring-->
+<!--              samples that fall outside of a bounding box during rendering.-->
+<!--            </p>-->
+<!--            <pre><code>-->
+
+<!--                observations, actions, rewards, next_observations, terminals, truncateds = tau-->
+
+<!--  init_xy  = observations[0, 0:2]-->
+<!--  final_xy = next_observations[-1, 0:2]-->
+<!--  delta_xy = final_xy - init_xy-->
+<!--  theta = np.arctan2(delta_xy[1], delta_xy[0])-->
+
+<!--  # compute in which direction &#45;&#45; up, down, left right &#45;&#45;-->
+<!--  # the agent primary moved.-->
+<!--  direction = np.argmin(np.abs(theta - np.array([0, np.pi/2, np.pi, np.pi*3/2, 2*np.pi]))) % 4-->
+
+<!--  guided_cells = get_guided_cells(direction)-->
+<!--  new_xy = sample_from_cells(guided_cells)-->
+
+<!--  tau = translate(tau, new_xy - init_xy)-->
+<!--  tau = relabel_rewards(tau)-->
+
+<!--  return tau-->
+<!--            </code></pre>-->
+<!--&lt;!&ndash;            <video id="matting-video" controls playsinline height="100%">&ndash;&gt;-->
+<!--&lt;!&ndash;              <source src="./static/videos/.mp4"&ndash;&gt;-->
+<!--&lt;!&ndash;                      type="video/mp4">&ndash;&gt;-->
+<!--&lt;!&ndash;            </video>&ndash;&gt;-->
+<!--          </div>-->
+<!--        </div>-->
+<!--      </div>-->
+<!--    </div>-->
+<!--    &lt;!&ndash;/ Antmaze. &ndash;&gt;-->
+</section>
 
 <section class="section" id="BibTeX">
   <div class="container is-max-desktop content">
@@ -149,20 +407,16 @@ In offline reinforcement learning (RL), an RL agent learns to solve a task using
     <div class="columns is-centered">
       <div class="column is-8">
         <div class="content">
-<!--          <p>-->
-<!--            This website is licensed under a <a rel="license"-->
-<!--                                                href="http://creativecommons.org/licenses/by-sa/4.0/">Creative-->
-<!--            Commons Attribution-ShareAlike 4.0 International License</a>.-->
-<!--          </p>-->
           <p>
-            This webpage format was borrwed from the <a
-              href="https://github.com/nerfies/nerfies.github.io">Nerfies project page</a>.
+            This website is licensed under a <a rel="license"
+                                                href="http://creativecommons.org/licenses/by-sa/4.0/">Creative
+            Commons Attribution-ShareAlike 4.0 International License</a> and
+            is borrowed from the <a href="https://github.com/nerfies/nerfies.github.io">Nerfies project page</a>.
           </p>
         </div>
       </div>
     </div>
   </div>
 </footer>
-
 </body>
 </html>
