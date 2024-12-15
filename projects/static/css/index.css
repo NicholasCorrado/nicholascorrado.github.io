@@ -159,3 +159,5 @@ body {
 #interpolation-image-wrapper img {
   border-radius: 5px;
 }
+
+a {color: #e3256b; text-decoration: none;}
