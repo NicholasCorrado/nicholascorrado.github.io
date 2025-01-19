@@ -37,7 +37,7 @@ p {line-height: 1.5em;}
 .footer-content a:hover {color: #f09228 !important;}
 .stars {font-size: 10px; display: inline-block; margin-left: 6px; color: #666;}
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 740px) {
     .header-profile-picture, .header-text {display: block; margin: auto; text-align: center;}
     .header-profile-picture {margin-bottom: 12px; width: 250px; height: 198px;}
     body {font-size: 14px;}
