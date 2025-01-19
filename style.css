@@ -72,3 +72,18 @@ p {line-height: 1.5em;}
     .press {display: block;}
 }
 
+/* for images that are too large on mobile */
+img {
+    max-width: 100%;
+    height: auto;
+}
+/* for text that wraps poorly on mobile */
+body {
+    word-wrap: break-word;
+}
+
+@media screen and (max-width: 768px) {
+    body {
+        font-size: 14px;  /* or whatever size works for you */
+    }
+}
