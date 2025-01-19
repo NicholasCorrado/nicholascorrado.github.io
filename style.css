@@ -37,11 +37,12 @@ p {line-height: 1.5em;}
 .footer-content a:hover {color: #f09228 !important;}
 .stars {font-size: 10px; display: inline-block; margin-left: 6px; color: #666;}
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 700px) {
     .header-profile-picture, .header-text {display: block; margin: auto; text-align: center;}
     .header-profile-picture {margin-bottom: 12px; width: 250px; height: 198px;}
-    body {font-size: 18px;}
+    body {font-size: 14px;}
     a.btn {font-size: 14px; padding: 2px 6px;}
+    /*.row-media {display: block; float: left; width: 160px; height: 120px; background-position: top; background-size: contain; background-repeat: no-repeat;}*/
 }
 
 .center {
@@ -65,25 +66,34 @@ p {line-height: 1.5em;}
   display: table;
 }
 
-@media only screen and (max-width: 1000px) {
-    .publication {margin-bottom: 46px;}
-    .publication .row-media {width: 260px; height: 260px; margin: auto; margin-bottom: 12px; display: block;}
-    .publication .row-text {display: block; width: 100%; margin-left: 0;}
-    .press {display: block;}
-}
+/*@media only screen and (max-width: 750px) {*/
+/*    .publication {margin-bottom: 46px;}*/
+/*    .publication .row-media {width: 260px; height: 260px; margin: auto; margin-bottom: 12px; display: block;}*/
+/*    .publication .row-text {display: block; width: 100%; margin-left: 0;}*/
+/*    .press {display: block;}*/
+/*    .body {*/
+/*        word-wrap: break-word;*/
+/*        font-size: 14px;  !* or whatever size works for you *!*/
+/*    }*/
+/*    .img {*/
+/*        max-width: 100%;*/
+/*        height: auto;*/
+/*    }*/
+/*    .header-name h1 {margin: 0; margin-left: 20px; font-size: 1.6em;}*/
+/*    .header-subtitle {margin-top: 12px; margin-left: 20px; margin-bottom: 12px; font-size: 0.9em; }*/
+/*    .header-links {font-size: 0.9em; margin-left: 20px;}*/
+/*    !*a, p, span, body, div {font-size: 12px; font-weight: normal; font-family: 'Lato', Verdana, Helvetica, sans-serif;}*!*/
 
-/* for images that are too large on mobile */
-img {
-    max-width: 100%;
-    height: auto;
-}
-/* for text that wraps poorly on mobile */
-body {
-    word-wrap: break-word;
-}
+/*}*/
 
-@media screen and (max-width: 768px) {
-    body {
-        font-size: 14px;  /* or whatever size works for you */
-    }
-}
+/*@media screen and (max-width: 768px) {*/
+/*    .publication .row-media {*/
+/*        width: 120px;  !* or even smaller, like 100px *!*/
+/*        height: 90px;  !* maintain the same aspect ratio *!*/
+/*    }*/
+
+/*    .publication .row-text {*/
+/*        width: calc(100% - 132px);  !* 120px image + 12px margin *!*/
+/*        max-width: none;  !* remove the fixed max-width on mobile *!*/
+/*    }*/
+/*}*/
