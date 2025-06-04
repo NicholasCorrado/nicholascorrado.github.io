@@ -1,0 +1,6 @@
+@inproceedings{corrado2025automixalign,
+    author    = {Nicholas E. Corrado and Julian Katz-Samuels and Adithya M Devraj and Hyokun Yun and Chao Zhang and Yi Xu and Yi Pan and Bing Yin and Trishul Chilimbi},
+    title     = {AutoMixAlign: Adaptive Data Mixing for Multi-Task Preference Optimization in LLMs},
+    booktitle = {The 63rd Annual Meeting of the Association for Computational Linguistics (ACL)},
+    year      = {2025}
+}

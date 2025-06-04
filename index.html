@@ -55,7 +55,7 @@
 <div class="content" style="padding-bottom: 64px;">
     <div>
         <p>
-  I am a Ph.D. student in Computer Sciences at the <a href="https://www.wisc.edu">University of Wisconsin–Madison</a>, advised by <a href="https://pages.cs.wisc.edu/~jphanna/">Josiah Hanna</a>.
+  I am a Ph.D. student in Computer Sciences at the <a href="https://www.wisc.edu">University of Wisconsin-Madison</a>, advised by <a href="https://pages.cs.wisc.edu/~jphanna/">Josiah Hanna</a>.
   My research focuses on improving the data efficiency of reinforcement learning (RL) algorithms by designing better data collection strategies.
   Since RL algorithms typically require an impractical amount of interaction with a task to perform well, my work asks: <em>What data should we collect to learn as efficiently as possible?</em> and <em>How do we efficiently collect such data?</em>
   Towards this end, I currently work on:
@@ -101,6 +101,22 @@
     </div>
     <div>
         <h2 class="noselect">Publications and Preprints</h2>
+        <div class="publication row clearfix">
+            <div class="row-media" style="background-image: url(images/tmp.png);"></div>
+            <div class="row-text">
+                <a class="publication-title bold" href="https://arxiv.org/abs/2311.08290">AutoMixAlign: Adaptive Data Mixing for Multi-Task Preference Optimization in LLMs</a><br/>
+                <span class="bold">Nicholas E. Corrado</span>, Julian Katz-Samuels, Adithya Devraj, Hyokun Yun, Chao Zhang, Yi Xu, Yi Pan, Bing Yin, Trishul Chilimbi<br/>
+                <span class="italic">ACL (Main Conference)</span>, 2025<br/>
+                <a class="btn" href="https://arxiv.org/abs/2506.00569">[arXiv]</a> <a class="btn" href="bibtex/corrado2025automixalign.txt">[bibtex]</a>
+                <br> <br/>
+                <details>
+                    <summary>Abstract</summary>
+                    <p>
+                        When aligning large language models (LLMs), their performance on various tasks (such as being helpful, harmless, and honest) depends heavily on the composition of their training data. However, selecting a data mixture that achieves strong performance across all tasks is challenging. Existing approaches rely on large ablation studies, heuristics, or human intuition, but these can be prohibitively expensive and suboptimal. We study this problem in the setting of preference optimization via DPO and introduce AutoMixAlign (AMA), a theoretically-grounded algorithm that adaptively mixes datasets during training to balance performance across tasks. AMA first trains \textit{specialist models} for each task to determine losses that correspond to strong task performance. Then, it trains a generalist model using a novel minimax optimization that prioritizes tasks for which generalist model losses deviate most from specialist model losses. To optimize this problem, we propose two algorithms: (1) AMA-R, which adaptively reweights the objective to prioritize tasks, and (2) AMA-S, which adaptively adjusts how much data is sampled from each task to prioritize tasks. Both algorithms achieve a convergence rate of $O(1/\sqrt{T})$ in the convex case. AMA-R's convergence result follows from Sagawa et al. (2019), and we provide a convergence proof for AMA-S using online learning techniques such as EXP3. We evaluate AMA on several multitask alignment setups and find that AMA outperforms the standard alignment approach -- which simply optimizes the total loss across all tasks -- and also outperforms model merging methods.
+                    </p>
+                </details>
+            </div>
+        </div>
         <div class="publication row clearfix">
             <div class="row-media" style="background-image: url(images/props.gif);"></div>
             <div class="row-text">
