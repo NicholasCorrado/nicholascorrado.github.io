@@ -2,6 +2,6 @@
 	title = {On-Policy Policy Gradient Reinforcement Learning Without On-Policy Sampling},
 	booktitle = {Arxiv Pre-print},
     author = {Nicholas E. Corrado and Josiah P. Hanna},
-	year = {2024},
+	year = {2023},
 	url={https://arxiv.org/abs/2311.08290},
 }
