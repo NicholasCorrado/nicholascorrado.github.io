@@ -3,4 +3,5 @@
     title     = {AutoMixAlign: Adaptive Data Mixing for Multi-Task Preference Optimization in LLMs},
     booktitle = {The 63rd Annual Meeting of the Association for Computational Linguistics (ACL)},
     year      = {2025}
+    url       - {https://arxiv.org/abs/2506.00569}
 }
