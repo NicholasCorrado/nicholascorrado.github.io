@@ -102,6 +102,22 @@
     <div>
         <h2 class="noselect">Publications and Preprints</h2>
         <div class="publication row clearfix">
+            <div class="row-media" style="background-image: url(images/thinking.png);"></div>
+            <div class="row-text">
+                <a class="publication-title bold" href="https://arxiv.org/abs/2506.17124">When Can Model-Free Reinforcement Learning be Enough for Thinking?</a><br/>
+                Josiah P. Hanna, <span class="bold">Nicholas E. Corrado</span><br/>
+                <span class="italic">Under Review</span>, 2025<br/>
+<!--                <a class="btn" href="https://arxiv.org/abs/2506.17124">[arXiv]</a> <a class="btn" href="bibtex/corrado2025automixalign.txt">[bibtex]</a>-->
+                                <a class="btn" href="https://arxiv.org/abs/2506.17124">[arXiv]</a>
+                <br> <br/>
+                <details>
+                    <summary>Abstract</summary>
+                    <p>
+                        Recent work on large language models has demonstrated the use of model-free reinforcement learning (RL) to train reasoning-like capabilities. The emergence of "thinking" through model-free RL is interesting as thinking actions neither produce reward nor change the external world state to one where the agent is more likely to get reward. This paper seeks to build a domain-independent understanding of when model-free RL will lead to "thinking" as a strategy for reward maximization. To build this understanding, we first introduce a theoretical model which we call a \textit{thought Markov decision process} (MDP). Thought MDPs minimally extend the classical MDP model to include an abstract notion of thought state and thought action. Using the thought MDP model, we prove the importance of policy initialization in determining whether or not thinking emerges and show formally that thought actions are equivalent to the agent choosing to perform a step of policy improvement before continuing to act. We then show that open-source LLMs satisfy the conditions that our theory predicts are necessary for model-free RL to produce thinking-like behavior. Finally, we hypothesize sufficient conditions that would enable thinking to be learned outside of language generation and introduce a toy domain where a combination of multi-task pre-training and designated thought actions enable more data-efficient RL compared to non-thinking agents.                    </p>
+                </details>
+            </div>
+        </div>
+        <div class="publication row clearfix">
             <div class="row-media" style="background-image: url(images/ama.png);"></div>
             <div class="row-text">
                 <a class="publication-title bold" href="https://arxiv.org/abs/2506.00569">AutoMixAlign: Adaptive Data Mixing for Multi-Task Preference Optimization in LLMs</a><br/>
