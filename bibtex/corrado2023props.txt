@@ -1,7 +1,7 @@
-@inproceedings{corrado_props_2023,
-	title = {On-Policy Policy Gradient Reinforcement Learning Without On-Policy Sampling},
-	booktitle = {Arxiv Pre-print},
-    author = {Nicholas E. Corrado and Josiah P. Hanna},
-	year = {2023},
-	url={https://arxiv.org/abs/2311.08290},
+@article{corrado2023policy,
+  title={On-policy policy gradient reinforcement learning without on-policy sampling},
+  author={Corrado, Nicholas E and Hanna, Josiah P},
+  journal={arXiv preprint arXiv:2311.08290},
+  year={2023}
+  url={https://arxiv.org/abs/2311.08290}
 }
