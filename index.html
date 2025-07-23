@@ -114,9 +114,12 @@ Another special thanks to Julian Katz-Samuels. Much of what I know about LLMs co
                 <span class="bold">Nicholas E. Corrado</span>, Julian Katz-Samuels, Adithya Devraj, Hyokun Yun, Chao Zhang, Yi Xu, Yi Pan, Bing Yin, Trishul Chilimbi<br/>
                 <span class="italic"> Association for Computational Linguistics (<a href="https://2025.aclweb.org">ACL</a>, Main Conference), 2025 </span><br/>
                 <a class="btn" href="https://arxiv.org/abs/2506.00569">arXiv</a> / <a class="btn" href="bibtex/corrado2025automixalign.txt">bibtex</a>
-<!--                <span class="bold">TLDR:</span>-->
-<!--                How should we mix datasets-->
-<!--                To produce generalist LLMs, we typically align LLMs to many datasets each targeting different tasks (<span>e.g.</span>, helpfulness, harmlessness, reasoning, etc.).-->
+                <p><span class="bold">TLDR:</span>
+                Naively aligning LLMs across many datasets each targeting different tasks (<span>e.g.</span>, helpfulness, harmlessness, reasoning, etc.)
+                often yields a model that performs well on some tasks but not others.
+                We introduce AutoMixAlign, an theoretically-grounded data mixing algorithm that adaptively mixes datasets during training to balance performance across tasks.
+
+                </p>
 <!--                How should-->
 <!--                However,-->
 <!--                We introduce AutoMixAlign, an theoretically-grounded data mixing algorithm that adaptively mixes datasets during training to balance-->
@@ -142,13 +145,10 @@ Another special thanks to Julian Katz-Samuels. Much of what I know about LLMs co
                 <span class="italic">Under Review</span><br/>
                 Also in <span class="italic"><a href="https://sites.google.com/view/findingtheframe/home">Finding the Frame Workshop @ Reinforcement Learning Conference (RLC)</a></span>, 2025<br/>
                 <a class="btn" href="https://arxiv.org/abs/2311.08290">arXiv</a> / <a class="btn" href="bibtex/corrado2023props.txt">bibtex</a>
-<!--                <br> <br/>-->
-<!--                <details>-->
-<!--                    <summary>Abstract</summary>-->
-<!--                    <p>-->
-<!--                        On-policy reinforcement learning (RL) algorithms perform policy updates using i.i.d. trajectories collected by the current policy. However, after observing only a finite number of trajectories, on-policy sampling may produce data that fails to match the expected on-policy data distribution. This sampling error leads to noisy updates and data inefficient on-policy learning. Recent work in the policy evaluation setting has shown that non-i.i.d., off-policy sampling can produce data with lower sampling error than on-policy sampling can produce. Motivated by this observation, we introduce an adaptive, off-policy sampling method to improve the data efficiency of on-policy policy gradient algorithms. Our method, Proximal Robust On-Policy Sampling (PROPS), reduces sampling error by collecting data with a behavior policy that increases the probability of sampling actions that are under-sampled with respect to the current policy. Rather than discarding data from old policies &#45;&#45; as is commonly done in on-policy algorithms &#45;&#45; PROPS uses data collection to adjust the distribution of previously collected data to be approximately on-policy. We empirically evaluate PROPS on both continuous-action MuJoCo benchmark tasks as well as discrete-action tasks and demonstrate that (1) PROPS decreases sampling error throughout training and (2) improves the data efficiency of on-policy policy gradient algorithms. Our work improves the RL community's understanding of a nuance in the on-policy vs off-policy dichotomy: on-policy learning requires on-policy data, not on-policy sampling.-->
-<!--                    </p>-->
-<!--                </details>-->
+                <p>
+                    <span class="bold">TLDR:</span> On-policy learning requires on-policy <span class="italic">data</span>&#8212;not on-policy <span class="italic">sampling</span>!
+                    We introduce an adaptive, off-policy sampling algorithm that produces on-policy data more efficiently than on-policy sampling, improving data efficiency.
+                </p>
             </div>
         </div>
         <div class="publication row clearfix">
@@ -159,15 +159,13 @@ Another special thanks to Julian Katz-Samuels. Much of what I know about LLMs co
                 <span class="italic">Reinforcement Learning Conference (<a href="https://rl-conference.cc/2024/">RLC</a>)</span>, 2024<br/>
 <!--                <a class="btn" href=projects/GuDA/>project page</a> / -->
                 <a class="btn" href="https://arxiv.org/abs/2310.18247">arXiv</a> / <a class="btn" href="bibtex/corrado2024guda.txt">bibtex</a>
+                <p>
+                    <span class="bold">TLDR:</span> While offline RL algorithm can in principle learn from highly suboptimal data, they nevertheless perform <span class="italic">much</span> better with near expert-quality data.
+                    Taking a "data first" perspective, we introduce a data augmentation framework that automatically generates near expert-quality synthetic data.
+                </p>
                 <p class="thanks">
                     Special thanks to John U. Balis and Adam Labiosa for helping with the physical robotics experiments.
                 </p>
-<!--                <details>-->
-<!--                <summary>Abstract</summary>-->
-<!--                    <p>-->
-<!--                        In offline reinforcement learning (RL), an RL agent learns to solve a task using only a fixed dataset of previously collected data. While offline RL has been successful in learning real-world robot control policies, it typically requires large amounts of expert-quality data to learn effective policies that generalize to out-of-distribution states. Unfortunately, such data is often difficult and expensive to acquire in real-world tasks. Several recent works have leveraged data augmentation (DA) to inexpensively generate additional data, but most DA works apply augmentations in a random fashion and ultimately produce highly suboptimal augmented experience. In this work, we propose Guided Data Augmentation (GuDA), a human-guided DA framework that generates expert-quality augmented data. The key insight behind GuDA is that while it may be difficult to demonstrate the sequence of actions required to produce expert data, a user can often easily characterize when an augmented trajectory segment represents progress toward task completion. Thus, a user can restrict the space of possible augmentations to automatically reject suboptimal augmented data. To extract a policy from GuDA, we use off-the-shelf offline reinforcement learning and behavior cloning algorithms. We evaluate GuDA on a physical robot soccer task as well as simulated D4RL navigation tasks, a simulated autonomous driving task, and a simulated soccer task. Empirically, GuDA enables learning given a small initial dataset of potentially suboptimal experience and outperforms a random DA strategy as well as a model-based DA strategy.-->
-<!--                    </p>-->
-<!--                </details>-->
             </div>
         </div>
         <div class="publication row clearfix">
@@ -178,13 +176,11 @@ Another special thanks to Julian Katz-Samuels. Much of what I know about LLMs co
                 <span class="italic">International Conference on Learning Representations (<a href="https://iclr.cc">ICLR</a></span>), 2024<br/>
                 <a class="btn" href="https://arxiv.org/abs/2310.17786">arXiv</a> / <a class="btn" href="bibtex/corrado2024understandingDA.txt">bibtex</a>
 <!--                <a class="btn" href="https://iclr.cc/virtual/2024/poster/17643">video </a> / <a class="btn" href="files/iclr_2024_understanding_da_poster.pdf">poster</a> / <a class="btn" href="files/iclr_2024_understanding_da.pdf">slides</a> / -->
-                <br> <br/>
-<!--                <details>-->
-<!--                    <summary>Abstract</summary>-->
-<!--                    <p>-->
-<!--                        Recently, data augmentation (DA) has emerged as a method for leveraging domain knowledge to inexpensively generate additional data in reinforcement learning (RL) tasks, often yielding substantial improvements in data efficiency. While prior work has demonstrated the utility of incorporating augmented data directly into model-free RL updates, it is not well-understood when a particular DA strategy will improve data efficiency. In this paper, we seek to identify general aspects of DA responsible for observed learning improvements. Our study focuses on sparse-reward tasks with dynamics-invariant data augmentation functions, serving as an initial step towards a more general understanding of DA and its integration into RL training. Experimentally, we isolate three relevant aspects of DA: state-action coverage, reward density, and the number of augmented transitions generated per update (the augmented replay ratio). From our experiments, we draw two conclusions: (1) increasing state-action coverage often has a much greater impact on data efficiency than increasing reward density, and (2) decreasing the augmented replay ratio substantially improves data efficiency. In fact, certain tasks in our empirical study are solvable only when the replay ratio is sufficiently low.-->
-<!--                    </p>-->
-<!--                </details>-->
+                <p>
+                    <span class="bold">TLDR:</span> Several prior works introduce data augmentation techniques that improve the data efficiency of RL.
+                    Rather than proposing yet another method, we ask: <em>when</em> and <em>why</em> does data augmentation help?
+                    Our work offers practical insights to help RL practitioners apply data augmentation more effectively.
+                </p>
             </div>
             </div>
         </div>
