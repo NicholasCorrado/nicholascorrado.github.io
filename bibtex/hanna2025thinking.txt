@@ -1,0 +1,6 @@
+@article{hanna2025can,
+  title={When Can Model-Free Reinforcement Learning be Enough for Thinking?},
+  author={Hanna, Josiah P and Corrado, Nicholas E},
+  journal={arXiv preprint arXiv:2506.17124},
+  year={2025}
+}

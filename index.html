@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<head>
+<head xmlns="http://www.w3.org/1999/html">
     <title>Nicholas E. Corrado</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -37,7 +37,7 @@
         <div class="header-profile-picture"></div>
         <div class="header-text">
             <div class="header-name">
-                <h1>Nicholas E. Corrado</h1>
+                <h1>Nicholas E. Corrado</br>(at ACL 2025)</h1>
             </div>
             <div class="header-subtitle">
                 Ph.D. student, University of Wisconsin-Madison
@@ -56,7 +56,7 @@
 <div class="content" style="padding-bottom: 64px;">
     <div>
         <p>
-  I am a Ph.D. student in Computer Sciences at the <a href="https://www.wisc.edu">University of Wisconsin-Madison</a>, advised by <a href="https://pages.cs.wisc.edu/~jphanna/">Josiah Hanna</a>.
+  I am a final-year Ph.D. student in Computer Sciences at the <a href="https://www.wisc.edu">University of Wisconsin-Madison</a>, advised by <a href="https://pages.cs.wisc.edu/~jphanna/">Josiah Hanna</a>.
   My research focuses on improving the data efficiency of reinforcement learning (RL) algorithms by designing better data collection strategies.
   Since RL algorithms typically require an impractical amount of interaction with a task to perform well, my work asks: <em>What data should we collect to learn as efficiently as possible?</em> and <em>How do we efficiently collect such data?</em>
   Towards this end, I currently work on:
@@ -74,7 +74,7 @@
         </p>
 
         <p>
-            Feel free to drop an email if you're interested in chatting!
+            <span class="bold"> I am seeking postdoc or research scientist positions starting Summer/Fall 2026.</span> Feel free to drop an email if you're interested in chatting!
         </p>
 
     </div>
@@ -84,11 +84,12 @@
             <li><span class="news-date">[July 2025]</span> &#127942; <a class="news-highlight" href="https://arxiv.org/abs/2506.17124">"When Can Model-Free Reinforcement Learning be Enough for Thinking?"</a> was awarded <em>Most-Thought-Provoking Paper</em> at Finding the Frame Workshop @ RLC 2025</li>
             <li><span class="news-date">[July 2025]</span> <a class="news-highlight" href="https://arxiv.org/abs/2506.17124">"When Can Model-Free Reinforcement Learning be Enough for Thinking?"</a> and <a class="news-highlight" href="https://arxiv.org/abs/2311.08290">"On-Policy Policy Gradient Learning Without On-Policy Sampling"</a> accepted at Finding the Frame Workshop @ RLC 2025!</li>
             <li><span class="news-date">[May 2025]</span> <a class="news-highlight" href="https://arxiv.org/abs/2506.00569">"AutoMixAlign: Adaptive Data Mixing for Multi-Task Preference Optimization in LLMs"</a> accepted at ACL 2025 Main Conference!</li>
-            <li><span class="news-date">[Nov 2024]</span> I received the <a class="news-highlight" href="https://neurips.cc/Conferences/2024/ProgramCommittee#top-reviewers">Top Review Award at NeurIPS 2024!</a></li>
+            <li><span class="news-date">[Nov 2024]</span> &#127942; I received the <a class="news-highlight" href="https://neurips.cc/Conferences/2024/ProgramCommittee#top-reviewers">Top Review Award at NeurIPS 2024!</a></li>
             <li><span class="news-date">[July 2024]</span> I joined <a class="news-highlight" href="https://spectrum.ieee.org/amazon-rufus">Amazon's Rufus Team</a> as a research intern working with <a class="news-highlight" href="https://jkatzsam.github.io">Julian Katz-Samuels</a>!</li>
             <li><span class="news-date">[May 2024]</span> 1 paper accepted at RLC 2024!</li>
             <li><span class="news-date">[January 2024]</span> 1 paper accepted at ICLR 2024!</li>
             <li><span class="news-date">[October 2023]</span> I gave <a class="news-highlight" href="https://youtu.be/c34txISfpQo?si=yXuSqrf38CgFx-pW">a talk on adaptive off-policy sampling for on-policy learning</a> at the University of Edinburgh RL reading group!</li>
+            <li><span class="news-date">[January 2023]</span> &#127942; I received the Sandia Employee Recognition Award!</li>
         </ul>
     </div>
     <div>
@@ -98,16 +99,12 @@
             <div class="row-text">
                 <a class="publication-title bold" href="https://arxiv.org/abs/2506.17124">When Can Model-Free Reinforcement Learning be Enough for Thinking?</a><br/>
                 Josiah P. Hanna, <span class="bold">Nicholas E. Corrado</span><br/>
-                <span class="italic"> Under Review<br/></span>
-                &#127942; <span class="bold" style="color: #f09228;">Most-Thought-Provoking Paper</span> at <span class="italic"><a href="https://sites.google.com/view/findingtheframe/home">Finding the Frame Workshop at the Reinforcement Learning Conference (RLC), 2025</a></span><br/>
-<!--            <a class="btn" href="https://arxiv.org/abs/2506.17124">[arXiv]</a> <a class="btn" href="bibtex/corrado2025automixalign.txt">[bibtex]</a>-->
-                                <a class="btn" href="https://arxiv.org/abs/2506.17124">[arXiv]</a>
-                <br> <br/>
-                <details>
-                    <summary>Abstract</summary>
-                    <p>
-                        Recent work on large language models has demonstrated the use of model-free reinforcement learning (RL) to train reasoning-like capabilities. The emergence of "thinking" through model-free RL is interesting as thinking actions neither produce reward nor change the external world state to one where the agent is more likely to get reward. This paper seeks to build a domain-independent understanding of when model-free RL will lead to "thinking" as a strategy for reward maximization. To build this understanding, we first introduce a theoretical model which we call a \textit{thought Markov decision process} (MDP). Thought MDPs minimally extend the classical MDP model to include an abstract notion of thought state and thought action. Using the thought MDP model, we prove the importance of policy initialization in determining whether or not thinking emerges and show formally that thought actions are equivalent to the agent choosing to perform a step of policy improvement before continuing to act. We then show that open-source LLMs satisfy the conditions that our theory predicts are necessary for model-free RL to produce thinking-like behavior. Finally, we hypothesize sufficient conditions that would enable thinking to be learned outside of language generation and introduce a toy domain where a combination of multi-task pre-training and designated thought actions enable more data-efficient RL compared to non-thinking agents.                    </p>
-                </details>
+                <span class="italic"> Under Review</span><br/>
+                &#127942; <span class="bold" style="color: #f09228;">Most-Thought-Provoking Paper</span> in <span class="italic"><a href="https://sites.google.com/view/findingtheframe/home">Finding the Frame Workshop @ RLC</a>, 2025</span><br/>
+                <a class="btn" href="https://arxiv.org/abs/2506.17124">arXiv</a> / <a class="btn" href="bibtex/hanna2025thinking.txt">bibtex</a>
+                <p class="thanks">
+Another special thanks to Julian Katz-Samuels. Much of what I know about LLMs comes from working with him, and that foundation made it easy to contribute to this project.
+                </p>
             </div>
         </div>
         <div class="publication row clearfix">
@@ -115,15 +112,26 @@
             <div class="row-text">
                 <a class="publication-title bold" href="https://arxiv.org/abs/2506.00569">AutoMixAlign: Adaptive Data Mixing for Multi-Task Preference Optimization in LLMs</a><br/>
                 <span class="bold">Nicholas E. Corrado</span>, Julian Katz-Samuels, Adithya Devraj, Hyokun Yun, Chao Zhang, Yi Xu, Yi Pan, Bing Yin, Trishul Chilimbi<br/>
-                <span class="italic">ACL (Main Conference), 2025</span><br/>
-                <a class="btn" href="https://arxiv.org/abs/2506.00569">[arXiv]</a> <a class="btn" href="bibtex/corrado2025automixalign.txt">[bibtex]</a>
-                <br> <br/>
-                <details>
-                    <summary>Abstract</summary>
-                    <p>
-                        When aligning large language models (LLMs), their performance on various tasks (such as being helpful, harmless, and honest) depends heavily on the composition of their training data. However, selecting a data mixture that achieves strong performance across all tasks is challenging. Existing approaches rely on large ablation studies, heuristics, or human intuition, but these can be prohibitively expensive and suboptimal. We study this problem in the setting of preference optimization via DPO and introduce AutoMixAlign (AMA), a theoretically-grounded algorithm that adaptively mixes datasets during training to balance performance across tasks. AMA first trains \textit{specialist models} for each task to determine losses that correspond to strong task performance. Then, it trains a generalist model using a novel minimax optimization that prioritizes tasks for which generalist model losses deviate most from specialist model losses. To optimize this problem, we propose two algorithms: (1) AMA-R, which adaptively reweights the objective to prioritize tasks, and (2) AMA-S, which adaptively adjusts how much data is sampled from each task to prioritize tasks. Both algorithms achieve a convergence rate of $O(1/\sqrt{T})$ in the convex case. AMA-R's convergence result follows from Sagawa et al. (2019), and we provide a convergence proof for AMA-S using online learning techniques such as EXP3. We evaluate AMA on several multitask alignment setups and find that AMA outperforms the standard alignment approach -- which simply optimizes the total loss across all tasks -- and also outperforms model merging methods.
-                    </p>
-                </details><span class="bold" style="color: #f09228;">
+                <span class="italic"> Association for Computational Linguistics (<a href="https://2025.aclweb.org">ACL</a>, Main Conference), 2025 </span><br/>
+                <a class="btn" href="https://arxiv.org/abs/2506.00569">arXiv</a> / <a class="btn" href="bibtex/corrado2025automixalign.txt">bibtex</a>
+<!--                <span class="bold">TLDR:</span>-->
+<!--                How should we mix datasets-->
+<!--                To produce generalist LLMs, we typically align LLMs to many datasets each targeting different tasks (<span>e.g.</span>, helpfulness, harmlessness, reasoning, etc.).-->
+<!--                How should-->
+<!--                However,-->
+<!--                We introduce AutoMixAlign, an theoretically-grounded data mixing algorithm that adaptively mixes datasets during training to balance-->
+<!--performance across tasks.-->
+                <p class="thanks">
+                        Special thanks to Julian Katz-Samuels, my mentor at Amazon.
+<!--                        , whose mentorship was instrumental to the success of this work.-->
+                        I came into this project with no prior LLM experience, and Julian's guidance, support, and confidence in me made a huge difference.
+                </p>
+<!--                <details>-->
+<!--                    <summary>Abstract</summary>-->
+<!--                    <p>-->
+<!--                        When aligning large language models (LLMs), their performance on various tasks (such as being helpful, harmless, and honest) depends heavily on the composition of their training data. However, selecting a data mixture that achieves strong performance across all tasks is challenging. Existing approaches rely on large ablation studies, heuristics, or human intuition, but these can be prohibitively expensive and suboptimal. We study this problem in the setting of preference optimization via DPO and introduce AutoMixAlign (AMA), a theoretically-grounded algorithm that adaptively mixes datasets during training to balance performance across tasks. AMA first trains \textit{specialist models} for each task to determine losses that correspond to strong task performance. Then, it trains a generalist model using a novel minimax optimization that prioritizes tasks for which generalist model losses deviate most from specialist model losses. To optimize this problem, we propose two algorithms: (1) AMA-R, which adaptively reweights the objective to prioritize tasks, and (2) AMA-S, which adaptively adjusts how much data is sampled from each task to prioritize tasks. Both algorithms achieve a convergence rate of $O(1/\sqrt{T})$ in the convex case. AMA-R's convergence result follows from Sagawa et al. (2019), and we provide a convergence proof for AMA-S using online learning techniques such as EXP3. We evaluate AMA on several multitask alignment setups and find that AMA outperforms the standard alignment approach &#45;&#45; which simply optimizes the total loss across all tasks &#45;&#45; and also outperforms model merging methods.-->
+<!--                    </p>-->
+<!--                </details>-->
             </div>
         </div>
         <div class="publication row clearfix">
@@ -132,15 +140,15 @@
                 <a class="publication-title bold" href="https://arxiv.org/abs/2311.08290">On-Policy Policy Gradient Learning Without On-Policy Sampling</a><br/>
                 <span class="bold">Nicholas E. Corrado</span>, Josiah P. Hanna<br/>
                 <span class="italic">Under Review</span><br/>
-                Also at <span class="italic"><a href="https://sites.google.com/view/findingtheframe/home">Finding the Frame Workshop at the Reinforcement Learning Conference (RLC)</a></span>, 2025.
-                <a class="btn" href="https://arxiv.org/abs/2311.08290">[arXiv]</a> <a class="btn" href="bibtex/corrado2023props.txt">[bibtex]</a>
-                <br> <br/>
-                <details>
-                    <summary>Abstract</summary>
-                    <p>
-                        On-policy reinforcement learning (RL) algorithms perform policy updates using i.i.d. trajectories collected by the current policy. However, after observing only a finite number of trajectories, on-policy sampling may produce data that fails to match the expected on-policy data distribution. This sampling error leads to noisy updates and data inefficient on-policy learning. Recent work in the policy evaluation setting has shown that non-i.i.d., off-policy sampling can produce data with lower sampling error than on-policy sampling can produce. Motivated by this observation, we introduce an adaptive, off-policy sampling method to improve the data efficiency of on-policy policy gradient algorithms. Our method, Proximal Robust On-Policy Sampling (PROPS), reduces sampling error by collecting data with a behavior policy that increases the probability of sampling actions that are under-sampled with respect to the current policy. Rather than discarding data from old policies -- as is commonly done in on-policy algorithms -- PROPS uses data collection to adjust the distribution of previously collected data to be approximately on-policy. We empirically evaluate PROPS on both continuous-action MuJoCo benchmark tasks as well as discrete-action tasks and demonstrate that (1) PROPS decreases sampling error throughout training and (2) improves the data efficiency of on-policy policy gradient algorithms. Our work improves the RL community's understanding of a nuance in the on-policy vs off-policy dichotomy: on-policy learning requires on-policy data, not on-policy sampling.
-                    </p>
-                </details>
+                Also in <span class="italic"><a href="https://sites.google.com/view/findingtheframe/home">Finding the Frame Workshop @ Reinforcement Learning Conference (RLC)</a></span>, 2025<br/>
+                <a class="btn" href="https://arxiv.org/abs/2311.08290">arXiv</a> / <a class="btn" href="bibtex/corrado2023props.txt">bibtex</a>
+<!--                <br> <br/>-->
+<!--                <details>-->
+<!--                    <summary>Abstract</summary>-->
+<!--                    <p>-->
+<!--                        On-policy reinforcement learning (RL) algorithms perform policy updates using i.i.d. trajectories collected by the current policy. However, after observing only a finite number of trajectories, on-policy sampling may produce data that fails to match the expected on-policy data distribution. This sampling error leads to noisy updates and data inefficient on-policy learning. Recent work in the policy evaluation setting has shown that non-i.i.d., off-policy sampling can produce data with lower sampling error than on-policy sampling can produce. Motivated by this observation, we introduce an adaptive, off-policy sampling method to improve the data efficiency of on-policy policy gradient algorithms. Our method, Proximal Robust On-Policy Sampling (PROPS), reduces sampling error by collecting data with a behavior policy that increases the probability of sampling actions that are under-sampled with respect to the current policy. Rather than discarding data from old policies &#45;&#45; as is commonly done in on-policy algorithms &#45;&#45; PROPS uses data collection to adjust the distribution of previously collected data to be approximately on-policy. We empirically evaluate PROPS on both continuous-action MuJoCo benchmark tasks as well as discrete-action tasks and demonstrate that (1) PROPS decreases sampling error throughout training and (2) improves the data efficiency of on-policy policy gradient algorithms. Our work improves the RL community's understanding of a nuance in the on-policy vs off-policy dichotomy: on-policy learning requires on-policy data, not on-policy sampling.-->
+<!--                    </p>-->
+<!--                </details>-->
             </div>
         </div>
         <div class="publication row clearfix">
@@ -148,15 +156,18 @@
             <div class="row-text">
                 <a class="publication-title bold" href="https://arxiv.org/abs/2310.18247">Guided Data Augmentation for Offline Reinforcement Learning and Imitation Learning</a><br/>
                 <span class="bold">Nicholas E. Corrado</span>, Yuxiao Qu, John U. Balis, Adam Labiosa, & Josiah P. Hanna<br/>
-                <span class="italic">Reinforcement Learning Conference (RLC)</span>, 2024<br/>
-                <a class="btn" href=projects/GuDA/>[project page]</a> <a class="btn" href="https://arxiv.org/abs/2310.18247">[arXiv]</a> <a class="btn" href="bibtex/corrado2024guda.txt">[bibtex]</a>
-                <br> <br/>
-                <details>
-                <summary>Abstract</summary>
-                    <p>
-                        In offline reinforcement learning (RL), an RL agent learns to solve a task using only a fixed dataset of previously collected data. While offline RL has been successful in learning real-world robot control policies, it typically requires large amounts of expert-quality data to learn effective policies that generalize to out-of-distribution states. Unfortunately, such data is often difficult and expensive to acquire in real-world tasks. Several recent works have leveraged data augmentation (DA) to inexpensively generate additional data, but most DA works apply augmentations in a random fashion and ultimately produce highly suboptimal augmented experience. In this work, we propose Guided Data Augmentation (GuDA), a human-guided DA framework that generates expert-quality augmented data. The key insight behind GuDA is that while it may be difficult to demonstrate the sequence of actions required to produce expert data, a user can often easily characterize when an augmented trajectory segment represents progress toward task completion. Thus, a user can restrict the space of possible augmentations to automatically reject suboptimal augmented data. To extract a policy from GuDA, we use off-the-shelf offline reinforcement learning and behavior cloning algorithms. We evaluate GuDA on a physical robot soccer task as well as simulated D4RL navigation tasks, a simulated autonomous driving task, and a simulated soccer task. Empirically, GuDA enables learning given a small initial dataset of potentially suboptimal experience and outperforms a random DA strategy as well as a model-based DA strategy.
-                    </p>
-                </details>
+                <span class="italic">Reinforcement Learning Conference (<a href="https://rl-conference.cc/2024/">RLC</a>)</span>, 2024<br/>
+<!--                <a class="btn" href=projects/GuDA/>project page</a> / -->
+                <a class="btn" href="https://arxiv.org/abs/2310.18247">arXiv</a> / <a class="btn" href="bibtex/corrado2024guda.txt">bibtex</a>
+                <p class="thanks">
+                    Special thanks to John U. Balis and Adam Labiosa for helping with the physical robotics experiments.
+                </p>
+<!--                <details>-->
+<!--                <summary>Abstract</summary>-->
+<!--                    <p>-->
+<!--                        In offline reinforcement learning (RL), an RL agent learns to solve a task using only a fixed dataset of previously collected data. While offline RL has been successful in learning real-world robot control policies, it typically requires large amounts of expert-quality data to learn effective policies that generalize to out-of-distribution states. Unfortunately, such data is often difficult and expensive to acquire in real-world tasks. Several recent works have leveraged data augmentation (DA) to inexpensively generate additional data, but most DA works apply augmentations in a random fashion and ultimately produce highly suboptimal augmented experience. In this work, we propose Guided Data Augmentation (GuDA), a human-guided DA framework that generates expert-quality augmented data. The key insight behind GuDA is that while it may be difficult to demonstrate the sequence of actions required to produce expert data, a user can often easily characterize when an augmented trajectory segment represents progress toward task completion. Thus, a user can restrict the space of possible augmentations to automatically reject suboptimal augmented data. To extract a policy from GuDA, we use off-the-shelf offline reinforcement learning and behavior cloning algorithms. We evaluate GuDA on a physical robot soccer task as well as simulated D4RL navigation tasks, a simulated autonomous driving task, and a simulated soccer task. Empirically, GuDA enables learning given a small initial dataset of potentially suboptimal experience and outperforms a random DA strategy as well as a model-based DA strategy.-->
+<!--                    </p>-->
+<!--                </details>-->
             </div>
         </div>
         <div class="publication row clearfix">
@@ -165,14 +176,16 @@
                 <a class="publication-title bold" href="https://arxiv.org/abs/2310.17786">Understanding when Dynamics-Invariant Data Augmentations Benefit Model-free Reinforcement Learning Updates</a><br/>
                 <span class="bold">Nicholas E. Corrado</span>, Josiah P. Hanna<br/>
                 <span class="italic">International Conference on Learning Representations (<a href="https://iclr.cc">ICLR</a></span>), 2024<br/>
-                <a class="btn" href="https://arxiv.org/abs/2310.17786">[arXiv]</a> <a class="btn" href="https://iclr.cc/virtual/2024/poster/17643">[video] <a class="btn" href="files/iclr_2024_understanding_da_poster.pdf">[poster] <a class="btn" href="files/iclr_2024_understanding_da.pdf">[slides]</a> </a> <a class="btn" href="bibtex/corrado2024understandingDA.txt">[bibtex]</a>
+                <a class="btn" href="https://arxiv.org/abs/2310.17786">arXiv</a> / <a class="btn" href="bibtex/corrado2024understandingDA.txt">bibtex</a>
+<!--                <a class="btn" href="https://iclr.cc/virtual/2024/poster/17643">video </a> / <a class="btn" href="files/iclr_2024_understanding_da_poster.pdf">poster</a> / <a class="btn" href="files/iclr_2024_understanding_da.pdf">slides</a> / -->
                 <br> <br/>
-                <details>
-                    <summary>Abstract</summary>
-                    <p>
-                        Recently, data augmentation (DA) has emerged as a method for leveraging domain knowledge to inexpensively generate additional data in reinforcement learning (RL) tasks, often yielding substantial improvements in data efficiency. While prior work has demonstrated the utility of incorporating augmented data directly into model-free RL updates, it is not well-understood when a particular DA strategy will improve data efficiency. In this paper, we seek to identify general aspects of DA responsible for observed learning improvements. Our study focuses on sparse-reward tasks with dynamics-invariant data augmentation functions, serving as an initial step towards a more general understanding of DA and its integration into RL training. Experimentally, we isolate three relevant aspects of DA: state-action coverage, reward density, and the number of augmented transitions generated per update (the augmented replay ratio). From our experiments, we draw two conclusions: (1) increasing state-action coverage often has a much greater impact on data efficiency than increasing reward density, and (2) decreasing the augmented replay ratio substantially improves data efficiency. In fact, certain tasks in our empirical study are solvable only when the replay ratio is sufficiently low.
-                    </p>
-                </details>
+<!--                <details>-->
+<!--                    <summary>Abstract</summary>-->
+<!--                    <p>-->
+<!--                        Recently, data augmentation (DA) has emerged as a method for leveraging domain knowledge to inexpensively generate additional data in reinforcement learning (RL) tasks, often yielding substantial improvements in data efficiency. While prior work has demonstrated the utility of incorporating augmented data directly into model-free RL updates, it is not well-understood when a particular DA strategy will improve data efficiency. In this paper, we seek to identify general aspects of DA responsible for observed learning improvements. Our study focuses on sparse-reward tasks with dynamics-invariant data augmentation functions, serving as an initial step towards a more general understanding of DA and its integration into RL training. Experimentally, we isolate three relevant aspects of DA: state-action coverage, reward density, and the number of augmented transitions generated per update (the augmented replay ratio). From our experiments, we draw two conclusions: (1) increasing state-action coverage often has a much greater impact on data efficiency than increasing reward density, and (2) decreasing the augmented replay ratio substantially improves data efficiency. In fact, certain tasks in our empirical study are solvable only when the replay ratio is sufficiently low.-->
+<!--                    </p>-->
+<!--                </details>-->
+            </div>
             </div>
         </div>
         <div class="publication row clearfix">
@@ -181,14 +194,14 @@
                 <a class="publication-title bold" href="https://ieeexplore.ieee.org/document/10333881">Deep Reinforcement Learning for Distribution Power System Cyber-Resilience via Distributed Energy Resource Control</a><br/>
                 <span class="bold">Nicholas E. Corrado</span>, Michael Livesay, Tyson Bailey, & Drew Levin.<br/>
                 <span class="italic">IEEE International Conference on Communications, Control, and Computing Technologies for Smart Grids, (<a href="https://sgc2023.ieee-smartgridcomm.org">IEEE SmartGridComm</a>)</span>, 2023<br/>
-                <a class="btn" href="https://ieeexplore.ieee.org/document/10333881">[paper]</a> <a class="btn" href="bibtex/corrado2023power.txt">[bibtex]</a>
+                <a class="btn" href="https://ieeexplore.ieee.org/document/10333881">paper</a> / <a class="btn" href="bibtex/corrado2023power.txt">bibtex</a>
                 <br> <br/>
-                <details>
-                    <summary>Abstract</summary>
-                    <p>
-                        Interoperable, internet-connected distributed energy resource (DER) devices in power systems create a new attack vector for malicious cyber-actors. Modern control systems primarily focus on transmission and sub-transmission operations and rarely incorporate DER or other distribution-connected equipment. While recent advances have expanded grid operator visibility and control functionality to the distribution level, these control systems struggle to scale with thousands of networked devices. Thus, to defend against potential attacks on DER devices, we must develop new real-time control algorithms to ensure grid stability. In this work, we present a new approach to power distribution control based on deep reinforcement learning (RL) algorithms which can learn optimal control policies through experience. We evaluate four RL algorithms in novel voltage stabilization tasks based on the IEEE 13-bus and EPRI Ckt5 power distribution models. We demonstrate that RL can successfully perform voltage regulation and outperform a greedy algorithm. Our results coupled with the established capability of RL to scale in high-dimensional settings opens a path towards real-time cyber defense of power systems with RL agents.
-                    </p>
-                </details>
+<!--                <details>-->
+<!--                    <summary>Abstract</summary>-->
+<!--                    <p>-->
+<!--                        Interoperable, internet-connected distributed energy resource (DER) devices in power systems create a new attack vector for malicious cyber-actors. Modern control systems primarily focus on transmission and sub-transmission operations and rarely incorporate DER or other distribution-connected equipment. While recent advances have expanded grid operator visibility and control functionality to the distribution level, these control systems struggle to scale with thousands of networked devices. Thus, to defend against potential attacks on DER devices, we must develop new real-time control algorithms to ensure grid stability. In this work, we present a new approach to power distribution control based on deep reinforcement learning (RL) algorithms which can learn optimal control policies through experience. We evaluate four RL algorithms in novel voltage stabilization tasks based on the IEEE 13-bus and EPRI Ckt5 power distribution models. We demonstrate that RL can successfully perform voltage regulation and outperform a greedy algorithm. Our results coupled with the established capability of RL to scale in high-dimensional settings opens a path towards real-time cyber defense of power systems with RL agents.-->
+<!--                    </p>-->
+<!--                </details>-->
             </div>
         </div>
         <div class="publication row clearfix">
@@ -197,16 +210,16 @@
                 <a class="publication-title bold" href="https://proceedings.mlr.press/v199/corrado22a/corrado22a.pdf">Simulation-Acquired Latent Action Spaces for Dynamics Generalization</a><br/>
                 <span class="bold">Nicholas E. Corrado</span>, Yuxiao Qu, & Josiah P. Hanna<br/>
                 <span class="italic">Conference on Lifelong Learning Agents (<a href="https://lifelong-ml.cc">CoLLAs</a>)</span>, 2022<br/>
-                <a class="btn" href="https://proceedings.mlr.press/v199/corrado22a">[paper]</a> <a class="btn" href="bibtex/corrado2022salas.txt">[bibtex]</a>
+                <a class="btn" href="https://proceedings.mlr.press/v199/corrado22a">paper</a> / <a class="btn" href="bibtex/corrado2022salas.txt">bibtex</a>
                 <br> <br/>
-                <details>
-                    <summary>
-                      Abstract
-                    </summary>
-                    <p>
-                        Deep reinforcement learning has shown incredible promise at training high-performing agents to solve high-dimensional continuous control tasks in a particular training environment. However, to be useful in real-world settings, long-lived agents must perform well across a range of environmental conditions. Naively applying deep RL to a task where environment conditions may vary from episode to episode can be data inefficient. To address this inefficiency, we introduce a method that discovers structure in an agent’s high-dimensional continuous action space to speed up learning across a range of environmental conditions. Whereas prior work on finding so-called latent action spaces requires expert demonstrations or on-task experience, we instead propose to discover the latent, lower-dimensional action space in a simulated source environment and then transfer the learned action space for training in the target environment. We evaluate our novel method on randomized variants of simulated MuJoCo environments and find that, when there is a lower-dimensional action-space to exploit, our method significantly increases data efficiency. For instance, in the Ant environment, our method reduces the 8-dimensional action-space to a 3-dimensional action-space and doubles the average return achieved after a training budget of 2 million timesteps.
-                    </p>
-                </details>
+<!--                <details>-->
+<!--                    <summary>-->
+<!--                      Abstract-->
+<!--                    </summary>-->
+<!--                    <p>-->
+<!--                        Deep reinforcement learning has shown incredible promise at training high-performing agents to solve high-dimensional continuous control tasks in a particular training environment. However, to be useful in real-world settings, long-lived agents must perform well across a range of environmental conditions. Naively applying deep RL to a task where environment conditions may vary from episode to episode can be data inefficient. To address this inefficiency, we introduce a method that discovers structure in an agent’s high-dimensional continuous action space to speed up learning across a range of environmental conditions. Whereas prior work on finding so-called latent action spaces requires expert demonstrations or on-task experience, we instead propose to discover the latent, lower-dimensional action space in a simulated source environment and then transfer the learned action space for training in the target environment. We evaluate our novel method on randomized variants of simulated MuJoCo environments and find that, when there is a lower-dimensional action-space to exploit, our method significantly increases data efficiency. For instance, in the Ant environment, our method reduces the 8-dimensional action-space to a 3-dimensional action-space and doubles the average return achieved after a training budget of 2 million timesteps.-->
+<!--                    </p>-->
+<!--                </details>-->
             </div>
         </div>
 <!--        <div>-->
