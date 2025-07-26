@@ -92,7 +92,7 @@
     <div>
         <h2 class="noselect">News</h2>
         <ul class="news-list">
-            <li><span class="news-date">[July 2025]</span> &#127942; <a class="news-highlight" href="https://arxiv.org/abs/2506.17124">"When Can Model-Free Reinforcement Learning be Enough for Thinking?"</a> was awarded <em>Most-Thought-Provoking Paper</em> at Finding the Frame Workshop @ RLC 2025 <b>(Oral)</li>
+            <li><span class="news-date">[July 2025]</span> &#127942; <a class="news-highlight" href="https://arxiv.org/abs/2506.17124">"When Can Model-Free Reinforcement Learning be Enough for Thinking?"</a> was awarded <em>Most-Thought-Provoking Paper</em> at Finding the Frame Workshop @ RLC 2025 (Oral)</li>
             <li><span class="news-date">[July 2025]</span> <a class="news-highlight" href="https://arxiv.org/abs/2506.17124">"When Can Model-Free Reinforcement Learning be Enough for Thinking?"</a> and <a class="news-highlight" href="https://arxiv.org/abs/2311.08290">"On-Policy Policy Gradient Learning Without On-Policy Sampling"</a> accepted at Finding the Frame Workshop @ RLC 2025!</li>
             <li><span class="news-date">[May 2025]</span> <a class="news-highlight" href="https://arxiv.org/abs/2506.00569">"AutoMixAlign: Adaptive Data Mixing for Multi-Task Preference Optimization in LLMs"</a> accepted at ACL 2025 Main Conference!</li>
             <li><span class="news-date">[Nov 2024]</span> &#127942; I received the <a class="news-highlight" href="https://neurips.cc/Conferences/2024/ProgramCommittee#top-reviewers">Top Review Award at NeurIPS 2024!</a></li>
@@ -111,13 +111,39 @@
                 <a class="publication-title bold" href="https://arxiv.org/abs/2506.17124">When Can Model-Free Reinforcement Learning be Enough for Thinking?</a><br/>
                 Josiah P. Hanna, <span class="bold">Nicholas E. Corrado</span><br/>
                 <span class="italic"> Under Review</span><br/>
-                &#127942; <span class="bold" style="color: #f09228;">Most-Thought-Provoking Paper</span> in <span class="italic"><a href="https://sites.google.com/view/findingtheframe/home">Finding the Frame Workshop @ RLC</a>, 2025</span><br/>
+                &#127942; <span class="bold" style="color: #f09228;">Most-Thought-Provoking Paper</span> in <span class="italic"><a href="https://sites.google.com/view/findingtheframe/home">Finding the Frame Workshop @ RLC</a>, 2025</span> <b>(Oral)</b><br/>
                 <a class="btn" href="https://arxiv.org/abs/2506.17124">arXiv</a> / <a class="btn" href="bibtex/hanna2025thinking.txt">bibtex</a>
                 <p><span class="bold">TLDR:</span>
                     This paper answers the question: Under what conditions will model-free reinforcement learning give rise to thinking as a strategy for reward maximization?
                 </p>
                 <p class="thanks">
 Another special thanks to Julian Katz-Samuels. Much of what I know about LLMs comes from working with him, and that foundation made it easy to contribute to this project.
+                </p>
+            </div>
+        </div>
+        <div class="publication row clearfix">
+            <div class="row-media" style="background-image: url(images/bpush.png);"></div>
+            <div class="row-text">
+                <a class="publication-title bold" href="https://arxiv.org/abs/2311.08290">Centralized Adaptive Sampling for Reliable Co-training of Independent Multi-Agent Policies</a><br/>
+                <span class="bold">Nicholas E. Corrado</span>, Josiah P. Hanna<br/>
+                <span class="italic">Under Review</span><br/>
+<!--                <a class="btn" href="files/maprops.pdf">pdf (arXiv and bibtex coming soon!)</a>-->
+                <a class="btn" href="">(arXiv and bibtex coming soon!)</a>
+<!--                / <a class="btn" href="bibtex/corrado2025maprops.txt">bibtex</a>-->
+                <p>
+                    <span class="bold">TLDR:</span>
+<!--                    Independent policy gradient algorithms it is well-understood that they may not converge to the most preferred equilibrium even in no-conflict games.-->
+<!--                    Independent on-policy policy gradient MARL algorithms are known to converge suboptimally when each agent’s policy gradient points toward a suboptimal equilibrium.-->
+<!--                    In this work, we identify and characterize a subtler, lesser-known failure mode that arises <em>even when the expected policy gradient of each agent aligns with optimal behavior</em>.-->
+<!--                    After collecting a finite set of trajectories, stochasticity in independent action sampling can cause the joint data distribution to deviate from the expected joint on-policy distribution.-->
+<!--                This \textit{sampling error} w.r.t.\@ the joint on-policy distribution  produces inaccurate gradient estimates that can lead agents to-->
+<!--                    stochasticity in action sampling can nevertheless cause agents to converge to suboptimal solutions.-->
+<!--                    We show that-->
+<!--                    stochasticity in action sampling can nevertheless cause agents to converge to suboptimal solutions.-->
+
+                    We identify subtle failure mode of independent on-policy MARL:
+                    on-policy sampling can produce data that deviates from the expected joint on-policy distribution, yielding inaccurate gradients that can make agents converge suboptimally&mdash;<em>even when the expected gradient of each agent aligns with optimal behavior</em>.
+                    We introduce adaptive sampling algorithm that reduces this joint sampling error, enabling agents to more reliability converge to an optimal equilibria.
                 </p>
             </div>
         </div>
@@ -158,7 +184,7 @@ Another special thanks to Julian Katz-Samuels. Much of what I know about LLMs co
                 Also in <span class="italic"><a href="https://sites.google.com/view/findingtheframe/home">Finding the Frame Workshop @ Reinforcement Learning Conference (RLC)</a></span>, 2025<br/>
                 <a class="btn" href="https://arxiv.org/abs/2311.08290">arXiv</a> / <a class="btn" href="bibtex/corrado2023props.txt">bibtex</a>
                 <p>
-                    <span class="bold">TLDR:</span> On-policy learning requires on-policy <span class="italic">data</span>&#8212;not on-policy <span class="italic">sampling</span>!
+                    <span class="bold">TLDR:</span> On-policy learning requires on-policy data, <span class="italic">not on-policy sampling</span>!
                     We introduce an adaptive, off-policy sampling algorithm that produces on-policy data more efficiently than on-policy sampling, improving data efficiency.
                 </p>
             </div>
