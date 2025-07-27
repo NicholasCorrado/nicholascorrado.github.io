@@ -141,9 +141,9 @@ Another special thanks to Julian Katz-Samuels. Much of what I know about LLMs co
 <!--                    We show that-->
 <!--                    stochasticity in action sampling can nevertheless cause agents to converge to suboptimal solutions.-->
 
-                    We identify subtle failure mode of independent on-policy MARL:
+                    We identify a subtle failure mode of independent on-policy MARL:
                     on-policy sampling can produce data that deviates from the expected joint on-policy distribution, yielding inaccurate gradients that can make agents converge suboptimally&mdash;<em>even when the expected gradient of each agent aligns with optimal behavior</em>.
-                    We introduce adaptive sampling algorithm that reduces this joint sampling error, enabling agents to more reliability converge to an optimal equilibria.
+                    We introduce adaptive sampling algorithm that reduces this <em>sampling error</em> w.r.t. the joint on-policy distribution, enabling agents to more reliability converge to an optimal equilibria.
                 </p>
             </div>
         </div>
@@ -156,7 +156,7 @@ Another special thanks to Julian Katz-Samuels. Much of what I know about LLMs co
                 <a class="btn" href="https://arxiv.org/abs/2506.00569">arXiv</a> / <a class="btn" href="bibtex/corrado2025automixalign.txt">bibtex</a>
                 <p><span class="bold">TLDR:</span>
                 Naively aligning LLMs across many datasets each targeting different tasks often yields a model that performs well on some tasks but not others.
-                We introduce AutoMixAlign, an theoretically-grounded data mixing algorithm that adaptively mixes datasets during training to balance performance across tasks.
+                We introduce AutoMixAlign, a theoretically-grounded data mixing algorithm that adaptively mixes datasets during training to balance performance across tasks.
                 </p>
 <!--                How should-->
 <!--                However,-->
