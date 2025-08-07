@@ -1,0 +1,6 @@
+@article{corrado2025centralized,
+  title={Centralized Adaptive Sampling for Reliable Co-Training of Independent Multi-Agent Policies},
+  author={Corrado, Nicholas E and Hanna, Josiah P},
+  journal={arXiv preprint arXiv:2508.01049},
+  year={2025}
+}
