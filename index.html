@@ -92,6 +92,7 @@
     <div>
         <h2 class="noselect">News</h2>
         <ul class="news-list">
+            <li><span class="news-date">[May 2026]</span> &#127942; Recognized as a <a class="news-highlight" href="">Gold Reviewer for ICML 2026!</a></li>
             <li><span class="news-date">[July 2025]</span> &#127942; <a class="news-highlight" href="https://arxiv.org/abs/2506.17124">"When Can Model-Free Reinforcement Learning be Enough for Thinking?"</a> was awarded <em>Most-Thought-Provoking Paper</em> at Finding the Frame Workshop @ RLC 2025 (Oral)!</li>
             <li><span class="news-date">[July 2025]</span> <a class="news-highlight" href="https://arxiv.org/abs/2506.17124">"When Can Model-Free Reinforcement Learning be Enough for Thinking?"</a> and <a class="news-highlight" href="https://arxiv.org/abs/2311.08290">"On-Policy Policy Gradient Learning Without On-Policy Sampling"</a> accepted at Finding the Frame Workshop @ RLC 2025!</li>
             <li><span class="news-date">[May 2025]</span> <a class="news-highlight" href="https://arxiv.org/abs/2506.00569">"AutoMixAlign: Adaptive Data Mixing for Multi-Task Preference Optimization in LLMs"</a> accepted at ACL 2025 Main Conference!</li>
@@ -105,6 +106,30 @@
     </div>
     <div>
         <h2 class="noselect">Publications and Preprints</h2>
+                <div class="publication row clearfix">
+            <div class="row-media" style="background-image: url(images/mt10_cropped.gif);"></div>
+            <div class="row-text">
+                <a class="publication-title bold" href="">Distributionally Robust Multi-Task Reinforcement Learning via Adaptive Task Sampling</a><br/>
+                <span class="bold">Nicholas E. Corrado</span>, Wenyuan Huang, Josiah P. Hanna<br/>
+                <span class="italic">Under Review</span>, 2026<br/>
+<!--                <a class="btn" href="files/maprops.pdf">pdf (arXiv and bibtex coming soon!)</a>-->
+                <a class="btn" href=""> arxiv coming soon! </a> / <a class="btn" href=""> bibtex coming soon! </a>
+<!--                / <a class="btn" href="bibtex/corrado2025maprops.txt">bibtex</a>-->
+<!--                <p>-->
+                <p><span class="bold">TLDR:</span>
+<!--                Existing multi-task data collection methods over-sample easy tasks (which need relatively little data to solve) and under-sample hard tasks (which need a lot of data to solve),-->
+                Existing multi-task data collection methods over-sample easy tasks and under-sample hard tasks
+                yielding imbalanced performance across tasks.
+                To resolve this imbalance, we introduce a theoretically-grounded multi-task data collection algorithm that adaptively prioritizes sampling tasks that are furthest from being solved,
+                improving worst-task performance and data efficiency.
+<!--                improving performance on hard tasks while maintainig strong performance on easy tasks.-->
+<!--                overall data efficiency and balanced asymptotic performance across tasks.-->
+<!--                DRATS increases data efficiency and asymptotic performance compared to existing task sampling strategies,-->
+<!--                and also converges to within $\epsilon$ error of the optimal worst-task return gap at a $O(1/\sqrt{T})$ rate.-->
+<!--        We derive DRATS by formalizing MTRL as a feasibility problem from which we derive a minimax objective for minimizing the worst-case return gap, the difference between a desired target return and the agent's return on a task.-->
+                </p>
+            </div>
+        </div>
         <div class="publication row clearfix">
             <div class="row-media" style="background-image: url(images/thinking.png);"></div>
             <div class="row-text">
