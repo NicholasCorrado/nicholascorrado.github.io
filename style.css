@@ -109,12 +109,17 @@ p {line-height: 1.5em;}
 /*}*/
 
 .news-list {
-    /*list-style: none;*/
-    /*padding-left: 0;*/
+    list-style: none;   /* removes bullets */
+    padding-left: 0;
+    margin-left: 0;
 }
 
 .news-list li {
-    margin-bottom: 12px;
+    display: grid;
+    grid-template-columns: 80px 1fr; /* adjust width as needed */
+    column-gap: 10px;
+    align-items: start;
+    margin-bottom: 4px;
 }
 
 .news-date {
@@ -124,7 +129,6 @@ p {line-height: 1.5em;}
 }
 
 .news-highlight {
-    color: #C5050C; /* your accent red */
     color: #0E7EBD;
 }
 
