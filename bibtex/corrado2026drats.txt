@@ -1,0 +1,6 @@
+@article{corrado2026distributionally,
+  title={Distributionally Robust Multi-Task Reinforcement Learning via Adaptive Task Sampling},
+  author={Corrado, Nicholas E and Huang, Wenyuan and Hanna, Josiah P},
+  journal={arXiv preprint arXiv:2605.14350},
+  year={2026}
+}
